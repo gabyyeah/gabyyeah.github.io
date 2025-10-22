@@ -1,0 +1,64 @@
+body {
+    font-family: Arapey, 'Times New Roman', Times, serif;
+    margin-left: 1cm;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arvo, 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+}
+
+
+tei-title{
+    font-family: Arvo, 'Times New Roman', Times, serif;
+    display: block;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+}
+
+tei-author{
+    display: block;
+}
+
+tei-l{
+    display: block;
+}
+
+tei-sp {
+    display: block;
+}
+
+tei-sp[lang="eng"]{
+    display: block;
+}
+
+tei-sp[lang="spa"] tei-l{
+    display: block;
+    color: blueviolet;
+}
+
+tei-stage {
+    display: block;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color:darkslategray;
+}
+
+tei-stage[lang="eng"] {
+    color: brown;
+}
+
+tei-stage[lang="spa"] {
+    color: blue;
+}
+
+tei-speaker{
+    display: block;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: darkslategray;
+}
