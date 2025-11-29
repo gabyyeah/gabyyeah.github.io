@@ -23,10 +23,16 @@ tei-title{
     font-style: italic;
     text-align: center;
     font-size: 40px;
+    color: rgb(65, 10, 10);
 }
 
 tei-author{
     display: block;
+    font-family: Rochester, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    color: rgb(88, 29, 29);
 }
 
 tei-castitem{
@@ -91,11 +97,12 @@ tei-stage {
 }
 
 tei-stage[lang="eng"] {
-    color: rgb(56, 56, 134);
+    font-weight: bold;
 }
 
 tei-stage[lang="spa"] {
-    color: blue;
+    font-weight: bold;
+    color: rgb(108, 4, 4);
 }
 
 tei-speaker{

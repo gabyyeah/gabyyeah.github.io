@@ -11,14 +11,16 @@
       </titleStmt>
       <publicationStmt>
         <p>Traducción realizada para la clase de 
-        Herramientas digitales para humanistas 2025-20
+        Herramientas digitales para humanistas 2025-20.
         </p>
       </publicationStmt>
       <sourceDesc>
         <p>Texto tomado del Second Quarto (<date>1604</date>)
         de William Shakespeare 
         en la siguiente dirección:
-        <ref target="https://internetshakespeare.uvic.ca/doc/Ham_Q2/scene/1.5/index.html"/>
+        <ref target="https://internetshakespeare.uvic.ca/doc/Ham_Q2/scene/1.5/index.html">
+          https://internetshakespeare.uvic.ca/doc/Ham_Q2/scene/1.5/index.html
+        </ref>
         </p>
       </sourceDesc>
     </fileDesc>
