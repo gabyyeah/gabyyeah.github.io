@@ -101,6 +101,7 @@
             <role>Osric</role>
             <roleDesc>a courtier</roleDesc>
           </castItem>
+          
           <castGroup xml:id="players">
             <roleDesc>Players</roleDesc>
             <castItem xml:id="prologue">
@@ -116,6 +117,7 @@
               <role>Lucianus</role>
             </castItem>
           </castGroup>
+
           <castItem xml:id="gravedigger">
             <role>Gravedigger</role>
             <roleDesc>a clown</roleDesc>
@@ -173,6 +175,7 @@
             <role>Norwegian soldiers</role>
           </castItem>
         </castList>
+
       </div>
 
     </front>
@@ -191,12 +194,29 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="cnsm7dj0ys_eng" corresp="#cnsm7dj0ys_spa">
         <speaker>Hamlet</speaker>
-        <l>Whither wilt thou lead me? Speak
-          <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">:</rdg>
-          </app>
-          I'll go no further.</l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>Whither wilt thou lead me? Speak
+            <app>
+              <lem wit="#Q2">.</lem>
+              <rdg wit="#F1" type="variation-orthography">:</rdg>
+            </app>
+            I'll go no further.</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-inversion">
+            <l>I'll go no further
+              <app>
+              <lem wit="#Q2">.</lem>
+              <rdg wit="#F1" type="variation-orthography">:</rdg>
+              </app>
+            Whither wilt thou lead me? 
+            <app>
+              <lem wit="#Q2 #F1">Speak</lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            </l>
+          </rdg>
+        </app>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="cnsm7dj0ys_spa" corresp="#cnsm7dj0ys_eng">
         <speaker>Hamlet</speaker>
@@ -221,23 +241,39 @@
         <l>Lo haré.</l>
       </sp>
 
-      <sp who="#ghost" xml:lang="eng" xml:id="ic06ra2lgb_eng" corresp="#ic06ra2lgb_spa">
-        <speaker>Ghost</speaker>
-        <l>My 
-          <app>
-            <lem>hour</lem>
-            <rdg wit="#F1" type="variation-orthography">hower</rdg>
-          </app>
-          is almost come</l>
-        <l>When I to sulf'rous and tormenting flames</l>
-        <l>Must render up myself.</l>
-      </sp>
+      <app>
+        <lem wit="#Q2 #F1">
+          <sp who="#ghost" xml:lang="eng" xml:id="ic06ra2lgb_eng" corresp="#ic06ra2lgb_spa">
+            <speaker>Ghost</speaker>
+            <l>My 
+              <app>
+               <lem wit="#Q2">hour</lem>
+               <rdg wit="#F1" type="variation-orthography">hower</rdg>
+              </app>
+             is almost come</l>
+           <l>When I to sulf'rous and tormenting flames</l>
+            <l>Must render up myself.</l>
+          </sp>
+        </lem>
+        <rdg wit="#Q1" type="variation-absent"/>
+      </app>
       <sp who="#ghost" xml:lang="spa" xml:id="ic06ra2lgb_spa" corresp="#ic06ra2lgb_eng">
         <speaker>Espectro</speaker>
         <l>Ya casi llega el momento</l>
         <l>en que deberé entregarme</l>
         <l>a las sulfurosas y torturantes llamas.</l>
       </sp>
+
+      <app>
+        <lem wit="#Q2 #F1" n="myself"/>
+        <rdg wit="#Q1" type="variation-present">
+          <l>I am thy fathers spirit, doomd for a time</l>
+          <l>To walke the night, and all the day</l>
+          <l>Confinde in flaming fire,</l>
+          <l>Till the foule crimes done in my dayes of Nature</l>
+          <l>Arepurged and burnt away.</l>
+        </rdg>
+      </app>
 
       <sp who="#hamlet" xml:lang="eng" xml:id="bb83oxbf4s_eng" corresp="#bb83oxbf4s_spa">
         <speaker>Hamlet</speaker>
@@ -250,8 +286,23 @@
 
       <sp who="#ghost" xml:lang="eng" xml:id="gkxhb9ea9x_eng" corresp="#gkxhb9ea9x_spa">
         <speaker>Ghost</speaker>
-        <l>Pity me not, but lend thy serious hearing</l>
-        <l>To what I shall unfold.</l>
+        <l> 
+          <app>
+            <lem wit="#Q2 #F1" n="ghost"/>
+            <rdg wit="#Q1" type="variation-present">Nay</rdg>
+          </app>
+          Pity me not, but lend thy 
+          <app>
+            <lem wit="#Q2 #F1">serious hearing</lem>
+            <rdg wit="#Q1">listning eare</rdg>
+          </app>
+        </l>
+        <l>To 
+          <app>
+           <lem wit="#Q2 #F1"> what I shall unfold.</lem>
+           <rdg wit="#Q1"> my unfolding</rdg>
+          </app>
+        </l>
       </sp>
       <sp who="#ghost" xml:lang="spa" xml:id="gkxhb9ea9x_spa" corresp="#gkxhb9ea9x_eng">
         <speaker>Espectro</speaker>
@@ -259,28 +310,43 @@
         <l>a lo que he de revelar.</l>
       </sp>
 
-     <sp who="#hamlet" xml:lang="eng" xml:id="u5jbc331sc_eng" corresp="#u5jbc331sc_spa"> 
-       <speaker>Hamlet</speaker>
-       <l>Speak. I am bound to hear.</l>
-      </sp>
+     <app>
+      <lem wit="#Q2 #F1">
+        <sp who="#hamlet" xml:lang="eng" xml:id="u5jbc331sc_eng" corresp="#u5jbc331sc_spa"> 
+         <speaker>Hamlet</speaker>
+          <l>Speak. I am bound to hear.</l>
+        </sp>
+      </lem>
+      <rdg wit="#Q1" type="variation-absent"/>
+     </app>
       <sp who="#hamlet" xml:lang="spa" xml:id="u5jbc331sc_spa" corresp="#u5jbc331sc_eng"> 
         <speaker>Hamlet</speaker>
         <l>Habla. Estoy obligado a escuchar.</l>
       </sp>
 
-      <sp who="#ghost" xml:lang="eng" xml:id="ltg4sfnxea_eng" corresp="#ltg4sfnxea_spa">
-        <speaker>Ghost</speaker>
-        <l>So art thou to revenge, when thou shalt hear.</l>
-      </sp>
+      <app>
+        <lem wit="#Q2 #F1">
+          <sp who="#ghost" xml:lang="eng" xml:id="ltg4sfnxea_eng" corresp="#ltg4sfnxea_spa">
+            <speaker>Ghost</speaker>
+            <l>So art thou to revenge, when thou shalt hear.</l>
+          </sp>
+        </lem>
+        <rdg wit="#Q1" type="variation-absent"/>
+      </app>
       <sp who="#ghost" xml:lang="spa" xml:id="ltg4sfnxea_spa" corresp="#ltg4sfnxea_eng">
         <speaker>Espectro</speaker>
        <l>Y así lo estás a vengarte, cuando hayas escuchado.</l>
       </sp>
 
-      <sp who="#hamlet" xml:lang="eng" xml:id="s2lw5yzy1g_eng" corresp="#s2lw5yzy1g_spa">
-        <speaker>Hamlet</speaker>
-        <l>What?</l>
-      </sp>
+      <app>
+        <lem wit="#Q2 #F1">
+          <sp who="#hamlet" xml:lang="eng" xml:id="s2lw5yzy1g_eng" corresp="#s2lw5yzy1g_spa">
+            <speaker>Hamlet</speaker>
+            <l>What?</l>
+          </sp>
+        </lem>
+        <rdg wit="#Q1" type="variation-absent"/>
+      </app>
       <sp who="#hamlet" xml:lang="spa" xml:id="s2lw5yzy1g_spa" corresp="#s2lw5yzy1g_eng">
         <speaker>Hamlet</speaker>
         <l>¿Qué?</l>
@@ -292,49 +358,83 @@
         <l>Doomed for a certain term to walk the night,</l>
         <l>And for the day confined to fast in fires,</l>
         <l> Till the foul crimes done in my days of nature</l>
-        <l>Are burnt and purged away
-          <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">?</rdg>
-          </app>
-          But that I am forbid</l>
+        <app>
+          <lem wit="#Q2 #F1"><l part="I">Are burnt and purged away
+            <app>
+              <lem wit="#Q2">.</lem>
+              <rdg wit="#F1" type="variation-orthography">?</rdg>
+            </app></l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
+        <l part="F">But that I am forbid</l>
         <l>To tell the secrets of my 
           <app>
-            <lem>prison house</lem>
+            <lem wit="#Q2">prison house</lem>
             <rdg wit="#F1" type="variation-orthography">
               Prison-House
             </rdg>
           </app>
           ,</l>
-        <l>I could a tale unfold whose lightest word</l>
+        <l>I 
+          <app>
+            <lem wit="#Q2 #F1">could</lem>
+            <rdg wit="#Q1">would</rdg>
+          </app> 
+          a tale unfold whose lightest word</l>
         <l>Would harrow up thy soul, freeze thy young blood,</l>
         <l>Make thy two eyes like stars start from their spheres,</l>
         <l>Thy knotted and combinèd locks to part,</l>
         <l>And each particular hair to stand on end</l>
         <l>Like quills upon the 
           <app>
-            <lem>fearful</lem>
-            <rdg wit="#F1" type="variation-orthography">
+            <lem wit="#Q2">fearful</lem>
+            <rdg wit="#F1 #Q1" type="variation-orthography">
               fretfull
             </rdg>
           </app>
           porpentine.</l>
-        <l>But this eternal blazon must not be</l>
-        <l>To ears of flesh and blood
+        <l>But this 
           <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">;</rdg>
+            <lem wit="#Q2 #F1">eternal</lem>
+            <rdg wit="#Q1">fame</rdg>
           </app> 
-          List
+          blazon must not be
           <app>
-            <lem>, list</lem>
-            <rdg wit="#F1">Hamlet</rdg>
+            <lem wit="#Q2 #F1" n="be"/>
+            <rdg wit="#Q1" type="variation-present">, to eares of flesh and blood</rdg>
           </app>
-          , oh, list:</l>
-        <l>If thou didst ever thy dear father love
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>To ears of flesh and blood
+              <app>
+                <lem wit="#Q2">.</lem>
+                <rdg wit="#F1" type="variation-orthography">;</rdg>
+              </app> 
+              List
+              <app>
+                <lem wit="#Q2">, list</lem>
+                <rdg wit="#F1">Hamlet</rdg>
+              </app>
+              , oh, list:</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
+        <l>
           <app>
-            <lem>--</lem>
-            <rdg wit="#F1" type="variation-orthography">.</rdg>
+            <lem wit="#Q2 #F1" n="list"/>
+            <rdg>Hamlet, </rdg>
+          </app>
+          If 
+          <app>
+            <lem wit="#Q2 #F1">thou didst ever</lem>
+            <rdg wit="#Q1" type="variation-inversion">ever thou didst</rdg>
+          </app>
+          thy dear father love
+          <app>
+            <lem wit="#Q2">--</lem>
+            <rdg wit="#F1 #Q1" type="variation-orthography">.</rdg>
           </app></l>
       </sp>
       <sp who="#ghost" xml:lang="spa" xml:id="e143d0gz3c_spa" corresp="#e143d0gz3c_eng">      
@@ -360,9 +460,10 @@
         <speaker>Hamlet</speaker>
         <l>O 
           <app>
-            <lem>God</lem>
+            <lem wit="#Q2 #Q1">God</lem>
             <rdg wit="#F1">Heaven</rdg>
-          </app>!</l>
+          </app>
+          !</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="k05i96wy60_spa" corresp="#k05i96wy60_eng">
         <speaker>Hamlet</speaker>
@@ -380,7 +481,12 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="h2hz9qw0tb_eng" corresp="#h2hz9qw0tb_spa">
         <speaker>Hamlet</speaker>
-        <l>Murder?</l>
+        <l>Murder
+          <app>
+            <lem wit="#Q2 #F1">?</lem>
+            <rdg wit="#Q1" type="variation-orthography">.</rdg>
+          </app>
+        </l>
      </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="h2hz9qw0tb_spa" corresp="#h2hz9qw0tb_eng">
         <speaker>Hamlet</speaker>
@@ -389,8 +495,38 @@
 
       <sp who="#ghost" xml:lang="eng" xml:id="t9080wcdq1_eng" corresp="#t9080wcdq1_spa">
         <speaker>Ghost</speaker>
-        <l>Murder most foul, as in the best it is,</l>
-        <l>But this most foul, strange, and unnatural.</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="murder"/>
+            <rdg wit="#Q1" type="variation-present">Yea</rdg>
+          </app>
+          Murder 
+          <app>
+            <lem wit="#Q2 #F1">most foul</lem>
+            <rdg wit="#Q1">in the highest degree</rdg>
+          </app>
+          <app>
+            <lem wit="#Q2 #F1">, as in the best it is,</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1" n="is"/>
+          <rdg wit="#Q1" type="variation-present">
+            <l>As in the least tis bad,</l>
+          </rdg>
+        </app>
+        <l>But 
+          <app>
+            <lem wit="#Q2 #F1">this</lem>
+            <rdg wit="#Q1">mine</rdg>
+          </app> 
+          most foul, 
+          <app>
+            <lem wit="#Q2 #F1">strange</lem>
+            <rdg wit="#Q1">beastly</rdg>
+          </app>
+          , and unnatural.</l>
       </sp>
       <sp who="#ghost" xml:lang="spa" xml:id="t9080wcdq1_spa" corresp="#t9080wcdq1_eng">
         <speaker>Espectro</speaker>
@@ -402,12 +538,39 @@
         <speaker>Hamlet</speaker>
         <l>Haste
           <app>
-            <lem n="haste"/>
+            <lem wit="#Q2 #Q1" n="haste"/>
             <rdg wit="#F1" type="variation-present">hast</rdg>
           </app>
-          me to know't, that I with wings as swift</l>
-        <l>As meditation or the thoughts of love</l>
-        <l>May sweep to my revenge.</l>
+          me to know't, that 
+          <app>
+            <lem wit="#Q2 #F1">I</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          with wings as swift
+          <app>
+            <lem wit="#Q2 #F1" n="swift"/>
+            <rdg wit="#Q1" type="variation-present">as</rdg>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">As</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          meditation or the thoughts of 
+          <app>
+            <lem wit="#Q2 #F1">love</lem>
+            <rdg wit="#Q1">it</rdg>
+          </app>
+          <app>
+            <lem wit="#Q2 #F1" n="love"/>
+            <rdg wit="#Q1" type="variation-present">, may sweepe to my revenge.</rdg>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1"><l>May sweep to my revenge.</l></lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="ok1bczgy6v_spa" corresp="#ok1bczgy6v_eng">
         <speaker>Hamlet</speaker>
@@ -418,46 +581,120 @@
 
       <sp who="#ghost" xml:lang="eng" xml:id="z6lmpsfn30_eng" corresp="#z6lmpsfn30_spa">
         <speaker>Ghost</speaker>
-        <l>I find thee apt,</l>
-        <l>And duller shouldst thou be than the fat weed</l>
-        <l>That 
+        <l>
           <app>
-            <lem>roots</lem>
-            <rdg wit="#F1" type="variation-orthography">rots</rdg>
-          </app> 
-          itself in ease on Lethe wharf</l>
-        <l>Wouldst thou not stir in this. Now
+            <lem wit="#Q2 #F1" n="revenge"/>
+            <rdg wit="#Q1" type="variation-present">O</rdg>
+          </app>
+          I find thee apt,
           <app>
-            <lem>,</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app> 
-          Hamlet
+            <lem wit="#Q2 #F1" n="apt"/>
+            <rdg wit="#Q1" type="variation-present"> and duller shouldst thou be</rdg>
+          </app>
+        </l>
+        <l>
           <app>
-            <lem>,</lem>
-            <rdg wit="#F1" type="variation-absent"/>
+            <lem wit="#Q2 #F1">And duller shouldst thou be</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
           </app> 
-          hear:</l>
-        <l>'Tis given out that, 
+          than the fat weed
           <app>
-            <lem n=","/>
-            <rdg wit="#F1" type="variation-present">that</rdg>
-          </app> 
-          sleeping in my orchard,</l>
+            <lem wit="#Q2 #F1" n="weed"/>
+            <rdg wit="#Q1" type="variation-present">which rootes it selfe in ease</rdg>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">
+              That 
+                <app>
+                  <lem wit="#Q2">roots</lem>
+                  <rdg wit="#F1" type="variation-orthography">rots</rdg>
+                </app> 
+              itself in ease 
+            </lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          on Lethe wharf
+          <app>
+            <lem wit="#Q2 #F1" n="wharf"/>
+            <rdg wit="#Q1" type="variation-present">: briefe let me be.</rdg>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+              <l>Wouldst thou not stir in this. Now
+                <app>
+                   <lem wit="#Q2">,</lem>
+                   <rdg wit="#F1" type="variation-absent"/>
+                </app> 
+                Hamlet
+                  <app>
+                    <lem wit="#Q2">,</lem>
+                   <rdg wit="#F1" type="variation-absent"/>
+                  </app> 
+                hear:
+              </l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"></rdg>
+        </app>
+        <l>'Tis given out, that sleeping in my orchard,</l>
         <l>A serpent stung me
           <app>
-            <lem>.</lem>
+            <lem wit="#Q2">,</lem>
             <rdg wit="#F1" type="variation-orthography">:</rdg>
           </app>
           So the whole ear of Denmark</l>
-        <l>Is by a forgèd process of my death</l>
-        <l>Rankly abused
+        <l>Is 
           <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">:</rdg>
+            <lem wit="#Q2 #F1">by</lem>
+            <rdg wit="#Q1">with</rdg>
+          </app> 
+          a forgèd process of my death
+          <app>
+            <lem wit="#Q2 #F1" n="death"/>
+            <rdg wit="#Q1" type="variation-present">rankely abusde:</rdg>
           </app>
-          But know, thou noble youth,</l>
-        <l>The serpent that did sting thy father's life</l>
-        <l>Now wears his crown.</l>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">
+              Rankly abused
+                <app>
+                  <lem wit="#Q2">.</lem>
+                  <rdg wit="#F1 #Q1" type="variation-orthography">:</rdg>
+                </app>
+            </lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          But know, thou noble youth,
+          <app>
+            <lem wit="#Q2 #F1" n="youth"/>
+            <rdg wit="#Q1" type="variation-present">he that did sting</rdg>
+          </app>
+        
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">The serpent that did sting</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          thy father's 
+          <app>
+            <lem wit="#Q2 #F1">life</lem>
+            <rdg wit="#Q1">heart</rdg>
+          </app>
+          <app>
+            <lem wit="#Q2 #F1" n="life"/>
+            <rdg wit="#Q1" type="variation-present">, now weares his Crowne.</rdg>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>Now wears his crown.</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
       </sp>
       <sp who="#ghost" xml:lang="spa" xml:id="z6lmpsfn30_spa" corresp="#z6lmpsfn30_eng">
         <speaker>Espectro</speaker>
@@ -475,140 +712,906 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="zoe5nytazp_eng" corresp="#zoe5nytazp_spa">
         <speaker>Hamlet</speaker>
-        <l>Oh, my prophetic soul! My uncle?</l>
+        <l>Oh, my prophetic soul
+          <app>
+            <lem wit="#Q2 #F1" n="soul"/>
+            <rdg wit="#Q1" type="variation-present">, my uncle</rdg>
+          </app>
+          ! My uncle
+          <app>
+            <lem wit="#Q2 #F1">?</lem>
+            <rdg wit="#Q1" type="variation-orthography">!</rdg>
+          </app>
+        </l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="zoe5nytazp_spa" corresp="#zoe5nytazp_eng">
         <speaker>Hamlet</speaker>
         <l>¡Oh, mi alma profética! ¿Mi tío?</l>
       </sp>
 
-      <sp who="#ghost" xml:lang="eng" xml:id="oylvb77by0_eng" corresp="#oylvb77by0_spa">
-        <speaker>Ghost</speaker>
-        <l>
-          <app>
-            <lem>Ay,</lem>
-            <rdg wit="#F1">I</rdg>
-          </app> 
-          that incestuous, that adulterate beast,</l>
-        <l>With witchcraft of his wits, with traitorous gifts--</l>
-        <l>Oh, wicked wit and gifts, that have the power</l>
-        <l>So to seduce
-          <app>
-            <lem>!</lem>
-            <rdg wit="#F1" type="variation-orthography">?</rdg>
-          </app>
-          --won 
-          <app>
-            <lem n="to"/>
-            <rdg wit="#F1" type="variation-present">to</rdg>
-          </app> 
-          his shameful lust</l>
-        <l>The will of my most seeming virtuous queen.</l>
-        <l>Oh, Hamlet, what 
-          <app>
-            <lem n="what"/>
-            <rdg wit="#F1" type="variation-present">a</rdg>
-          </app>
-          falling off was there!</l>
-        <l>From me, whose love was of that dignity</l>
-        <l>That it went hand in hand even with the vow</l>
-        <l>I made to her in marriage, and to decline</l>
-        <l>Upon a wretch whose natural gifts were poor</l>
-        <l>To those of mine. But virtue, as it never will be moved,</l>
-        <l>Though lewdness court it in a shape of heaven,</l>
-        <l>So 
-          <app>
-            <lem>but</lem>
-            <rdg wit="#F1">Lust,</rdg>
-          </app> 
-          though to a radiant angel linked,</l>
-        <l>Will 
-          <app>
-            <lem>sort</lem>
-            <rdg wit="#F1">sate</rdg>
-          </app> 
-          itself in a celestial bed</l>
-        <l>And prey on garbage.</l>
-        <l>But soft, methinks I scent the 
-          <app>
-            <lem>morning</lem>
-            <rdg wit="#F1">Mornings</rdg>
-          </app> 
-          air.</l>
-        <l>Brief let me be
-          <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">:</rdg>
-          </app> 
-          Sleeping within my orchard,</l>
-        <l>My custom always 
-          <app>
-            <lem>of</lem>
-            <rdg wit="#F1">in</rdg>
-          </app> 
-          the afternoon,</l>
-        <l>Upon my secure hour, thy uncle stole</l>
-        <l>With juice of cursèd hebona in a vial,</l>
-        <l>And in the porches of my ears did pour</l>
-        <l>The lep'rous distillment, whose effect</l>
-        <l>Holds such an enmity with blood of man</l>
-        <l>That swift as quicksilver it courses through</l>
-        <l>The natural gates and alleys of the body,</l>
-        <l>And with a sudden vigor it doth possess</l>
-        <l>And curd like 
-          <app>
-            <lem>eager</lem>
-            <rdg wit="#F1">Aygre</rdg>
-          </app> 
-          droppings into milk</l>
-        <l>The thin and wholesome blood; so did it mine,</l>
-        <l>And a most instant tetter 
-          <app>
-            <lem>barked</lem>
-            <rdg wit="#F1">bak'd</rdg>
-          </app> 
-          about</l>
-        <l>Most lazarlike with vile and loathsome crust</l>
-        <l>All my smooth body.</l>
-        <l>Thus was I
-          <app>
-            <lem n="I"/>
-            <rdg wit="#F1" type="variation-present">,</rdg>
-          </app> 
-          sleeping 
-          <app>
-            <lem n="sleeping"/>
-            <rdg wit="#F1" type="variation-present">,</rdg>
-          </app> 
-          by a brother's hand</l>
-        <l>Of life, of crown, 
-          <app>
-            <lem>of</lem>
-            <rdg wit="#F1">and</rdg>
-          </app> 
-          queen at once dispatched,</l>
-        <l>Cut off even in the blossoms of my sin,</l>
-        <l>Unhousled, disappointed, unaneled,</l>
-        <l>No reck'ning made, but sent to my account</l>
-        <l>With all my imperfections on my head.</l>
-        <l>Oh, horrible, oh, horrible, most horrible!</l>
-        <l>If thou hast nature in thee, bear it not.</l>
-        <l>Let not the royal bed of Denmark be</l>
-        <l>A couch for luxury and damnèd incest.</l>
-        <l>But howsomever thou pursues this act,</l>
-        <l>Taint not thy mind, nor let thy soul contrive</l>
-        <l>Against thy mother aught; leave her to heaven</l>
-        <l>And to those thorns that in her bosom lodge</l>
-        <l>To prick and sting her. Fare thee well at once.</l>
-        <l>The glow-worm shows the matin to be near</l>
-        <l>And 'gins to pale his uneffectual fire.</l>
-        <l>Adieu, adieu, 
-          <app>
-            <lem>adieu!</lem>
-            <rdg wit="#F1">Hamlet:</rdg>
-          </app> 
-          Remember me.</l>
-      </sp>
+      <app xml:id="oqwnp0kk3b">
+        <lem wit="#Q2 #F1">
+          <sp who="#ghost" xml:lang="eng" xml:id="oylvb77by0_eng" corresp="#oylvb77by0_spa">
+            <speaker>Ghost</speaker>
+            <l>
+              <app>
+                <lem wit="#Q2">Ay,</lem>
+                <rdg wit="#F1">I</rdg>
+                <rdg wit="#Q1">Yea he</rdg>
+              </app>
+              that incestuous
+              <app>
+                <lem wit="#Q2 #F1" n="incestuous"/>
+                <rdg wit="#Q1" type="variation-present">wretch, wonne to his will</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1">, that adulterate beast,</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>With witchcraft of his wits, with traitorous gifts--</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>Oh, wicked
+              <app>
+                <lem wit="#Q2 #F1">wit</lem>
+                <rdg wit="#Q1">will</rdg>
+              </app>
+              and gifts, that have the power</l>
+            <l>So to seduce
+              <app>
+                <lem wit="#Q2 #F1">
+                  <app>
+                    <lem wit="#Q2">!</lem>
+                    <rdg wit="#F1" type="variation-orthography">?</rdg>
+                  </app>
+                  --won
+                  <app>
+                    <lem wit="#Q2" n="to"/>
+                    <rdg wit="#F1" type="variation-present">to</rdg>
+                  </app>
+                  his shameful lust
+                </lem>
+                <rdg wit="#Q1">my most seeming vertuous Queene,</rdg>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>The will of my most seeming virtuous queen.</l>
+                <l>Oh, Hamlet, what
+                  <app>
+                    <lem wit="#Q2" n="what"/>
+                    <rdg wit="#F1" type="variation-present">a</rdg>
+                  </app>
+                  falling off was there!</l>
+                <l>From me, whose love was of that dignity</l>
+                <l>That it went hand in hand even with the vow</l>
+                <l>I made to her in marriage, and to decline</l>
+                <l>Upon a wretch whose natural gifts were poor</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">To those of mine. </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              But virtue, as it never will be moved,</l>
+            <l>Though lewdness court it in a shape of heaven,</l>
+            <l>So
+              <app>
+                <lem wit="#Q2">but</lem>
+                <rdg wit="#F1 #Q1">Lust,</rdg>
+              </app>
+              though to a radiant angel linked,</l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">Will </lem>
+                <rdg wit="#Q1">Would </rdg>
+              </app>
+              <app>
+                <lem wit="#Q2">sort</lem>
+                <rdg wit="#F1">sate</rdg>
+                <rdg wit="#Q1">fate</rdg>
+              </app>
+              itself
+              <app>
+                <lem wit="#Q2 #F1">in </lem>
+                <rdg wit="#Q1">from </rdg>
+              </app>
+              a celestial bed</l>
+            <l>And prey on garbage
+              <app>
+                <lem wit="#Q2 #F1">.</lem>
+                <rdg wit="#Q1" type="variation-orthography">:</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1" n="garbage"/>
+                <rdg wit="#Q1" type="variation-present">but soft, me thinkes</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">But soft, methinks </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              I scent the
+              <app>
+                <lem wit="#Q2">morning</lem>
+                <rdg wit="#F1 #Q1">Mornings</rdg>
+              </app>
+              air
+              <app>
+                <lem wit="#Q2 #F1">.</lem>
+                <rdg wit="#Q1" type="variation-orthography">,</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1" n="air"/>
+                <rdg wit="#Q1" type="variation-present">briefe let me be,</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">
+                  Brief let me be
+                  <app>
+                    <lem wit="#Q2">.</lem>
+                    <rdg wit="#F1" type="variation-orthography">:</rdg>
+                  </app>
+                </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              Sleeping within my orchard,
+              <app>
+                <lem wit="#Q2 #F1" n="orchard"/>
+                <rdg wit="#Q1" type="variation-present">my custome alwayes</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">My custom always </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              <app>
+                <lem wit="#Q2">of</lem>
+                <rdg wit="#F1 #Q1">in</rdg>
+              </app>
+              the afternoon,
+              <app>
+                <lem wit="#Q2 #F1" n="afternoon"/>
+                <rdg wit="#Q1" type="variation-present">upon my secure houre</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">Upon my secure hour, </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              thy uncle
+              <app>
+                <lem wit="#Q2 #F1">stole</lem>
+                <rdg wit="#Q1">came</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1" n="stole"/>
+                <rdg wit="#Q1" type="variation-present">with iuyce of Hebona</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">With juice of cursèd hebona</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              in a vial,
+              <app>
+                <lem wit="#Q2 #F1" n="vial"/>
+                <rdg wit="#Q1">and through the porches of my eares</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">And in the porches of my ears</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+               did pour
+              <app>
+                <lem wit="#Q2 #F1" n="pour"/>
+                <rdg wit="#Q1" type="variation-present">
+                  the leaprous distilment, whose effect
+                </rdg>
+              </app>
+              </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>The lep'rous distillment, whose effect</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>Holds such an enmity with blood of man</l>
+            <l>That swift as quicksilver it
+              <app>
+                <lem wit="#Q2 #F1">courses</lem>
+                <rdg wit="#Q1">posteth</rdg>
+              </app>
+               through</l>
+            <l>The natural gates and alleys of the body,</l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>And with a sudden vigor it doth possess</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1">And curd like</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                  <app>
+                    <lem wit="#Q2 #Q1">eager</lem>
+                    <rdg wit="#F1">Aygre</rdg>
+                  </app>
+                  droppings into milk</l>
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1" n="milk"/>
+                    <rdg wit="#Q1" type="variation-present">And turnes</rdg>
+                  </app>
+                  The thin and wholesome blood
+                  <app>
+                    <lem wit="#Q2 #F1">; so did it mine,</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+              </lem>
+              <rdg wit="#Q1" type="variation-inversion">
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1" n="milk"/>
+                    <rdg wit="#Q1" type="variation-present">And turnes</rdg>
+                  </app>
+                  The thin and wholesome blood
+                  <app>
+                    <lem wit="#Q2 #F1">; so did it mine,</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1">And curd like</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                  <app>
+                    <lem wit="#Q2 #Q1">eager</lem>
+                    <rdg wit="#F1">Aygre</rdg>
+                  </app>
+                  droppings into milk</l>
+              </rdg>
+            </app>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>And a most instant tetter
+                  <app>
+                    <lem wit="#Q2">barked</lem>
+                    <rdg wit="#F1">bak'd</rdg>
+                  </app>
+                  about</l>
+                <l>Most lazarlike with vile and loathsome crust</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="crust"/>
+                <rdg wit="#Q1" type="variation-present">And</rdg>
+              </app>
+              All my smooth body
+              <app>
+                <lem wit="#Q2 #F1" n="body"/>
+                <rdg wit="#Q1" type="varition-present">
+                  , barked, and tetterd over.
+                </rdg>
+              </app>
+              .</l>
+            <l>Thus was I
+              <app>
+                <lem wit="#Q2 #Q1" n="I"/>
+                <rdg wit="#F1" type="variation-present">,</rdg>
+              </app>
+              sleeping
+              <app>
+                <lem wit="#Q2 #Q1" n="sleeping"/>
+                <rdg wit="#F1" type="variation-present">,</rdg>
+              </app>
+              by a brother's hand</l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">Of life, </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              of crown,
+              <app>
+                <lem wit="#Q2 #Q1">of</lem>
+                <rdg wit="#F1">and</rdg>
+              </app>
+              queen
+              <app>
+                <lem wit="#Q2 #F1">at once dispatched,</lem>
+                <rdg wit="#Q1">, of life, of dignitie</rdg>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>Cut off even in the blossoms of my sin,</l>
+                <l>Unhousled, disappointed, unaneled,</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="unaneled"/>
+                <rdg wit="#Q1" type="variation-present">
+                  At once deprived
+                </rdg>
+              </app>
+              No reck'ning made
+              <app>
+                <lem wit="#Q2 #F1" n="made"/>
+                <rdg wit="#Q1" type="variation-present">of</rdg>
+              </app>
+              ,
+              <app>
+                <lem wit="#Q2 #F1"> but sent to my account</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="account"/>
+                <rdg wit="#Q1" type="variation-present">But sent unto my grave,</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1">With all my imperfections on my head.</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="head"/>
+                <rdg wit="#Q1" type="variation-present">With all my accompts and finnes upon my head,</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1">Oh, horrible, oh, horrible, most horrible!</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app></l>
+            <app>
+              <lem wit="#Q2 #F1" n="horrible"/>
+              <rdg wit="#Q1" type="variation-present">
+                <l>O horrible, most horrible!</l>
+              </rdg>
+            </app>
+          
+            <l>If thou hast nature in thee, bear it not.</l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>Let not the royal bed of Denmark be</l>
+                <l>A couch for luxury and damnèd incest.</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>But howsomever 
+              <app>
+                <lem wit="#Q2 #F1">thou pursues this act,</lem>
+                <rdg wit="#Q1">, let not thy heart</rdg>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>Taint not thy mind, nor let thy soul contrive</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="contrive"/>
+                <rdg wit="#Q1" type="variation-present">Conspire</rdg>
+              </app>
+              Against thy mother aught
+              <app>
+                <lem wit="#Q2 #F1">; leave her to heaven</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">And to those thorns that in her bosom lodge</lem>
+                <rdg wit="#Q1">Leave her to heaven,</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">To prick and sting her. Fare thee well at once.</lem>
+                <rdg wit="#Q1">And to the burthen that her conscience beares.</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="once"/>
+                <rdg wit="#Q1" type="variation-present">I must be gone,</rdg>
+              </app>
+              The glow-worm shows the matin 
+              <app>
+                <lem wit="#Q2 #F1">to be near</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="near"/>
+                <rdg wit="#Q1" type="variation-present">To be neere,</rdg>
+              </app>
+              And 'gins to pale his uneffectual fire.</l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="fire"/>
+                <rdg wit="#Q1" type="variation-present">Hamlet</rdg>
+              </app>
+              Adieu, adieu,
+              <app>
+                <lem wit="#Q2 #Q1">adieu!</lem>
+                <rdg wit="#F1">Hamlet:</rdg>
+              </app>
+              Remember me.</l>
+          </sp>
+        </lem>
+        <rdg wit="#Q1">
+          <sp who="#ghost" xml:lang="eng" xml:id="oylvb77by0j_eng" corresp="#oylvb77by0j_spa">
+            <speaker>Ghost</speaker>
+            <l>
+              <app>
+                <lem wit="#Q2">Ay,</lem>
+                <rdg wit="#F1">I</rdg>
+                <rdg wit="#Q1">Yea he</rdg>
+              </app>
+              that incestuous
+              <app>
+                <lem wit="#Q2 #F1" n="incestuous"/>
+                <rdg wit="#Q1" type="variation-present">wretch, wonne to his will</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1">, that adulterate beast,</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>With witchcraft of his wits, with traitorous gifts--</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>Oh, wicked
+              <app>
+                <lem wit="#Q2 #F1">wit</lem>
+                <rdg wit="#Q1">will</rdg>
+              </app>
+              and gifts, that have the power</l>
+            <l>So to seduce
+              <app>
+                <lem wit="#Q2 #F1">
+                  <app>
+                    <lem wit="#Q2">!</lem>
+                    <rdg wit="#F1" type="variation-orthography">?</rdg>
+                  </app>
+                  --won
+                  <app>
+                    <lem wit="#Q2" n="to"/>
+                    <rdg wit="#F1" type="variation-present">to</rdg>
+                  </app>
+                  his shameful lust
+                </lem>
+                <rdg wit="#Q1">my most seeming vertuous Queene,</rdg>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>The will of my most seeming virtuous queen.</l>
+                <l>Oh, Hamlet, what
+                  <app>
+                    <lem wit="#Q2" n="what"/>
+                    <rdg wit="#F1" type="variation-present">a</rdg>
+                  </app>
+                  falling off was there!</l>
+                <l>From me, whose love was of that dignity</l>
+                <l>That it went hand in hand even with the vow</l>
+                <l>I made to her in marriage, and to decline</l>
+                <l>Upon a wretch whose natural gifts were poor</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">To those of mine. </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              But virtue, as it never will be moved,</l>
+            <l>Though lewdness court it in a shape of heaven,</l>
+            <l>So
+              <app>
+                <lem wit="#Q2">but</lem>
+                <rdg wit="#F1 #Q1">Lust,</rdg>
+              </app>
+              though to a radiant angel linked,</l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">Will </lem>
+                <rdg wit="#Q1">Would </rdg>
+              </app>
+              <app>
+                <lem wit="#Q2">sort</lem>
+                <rdg wit="#F1">sate</rdg>
+                <rdg wit="#Q1">fate</rdg>
+              </app>
+              itself
+              <app>
+                <lem wit="#Q2 #F1">in </lem>
+                <rdg wit="#Q1">from </rdg>
+              </app>
+              a celestial bed</l>
+            <l>And prey on garbage
+              <app>
+                <lem wit="#Q2 #F1">.</lem>
+                <rdg wit="#Q1" type="variation-orthography">:</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1" n="garbage"/>
+                <rdg wit="#Q1" type="variation-present">but soft, me thinkes</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">But soft, methinks </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              I scent the
+              <app>
+                <lem wit="#Q2">morning</lem>
+                <rdg wit="#F1 #Q1">Mornings</rdg>
+              </app>
+              air
+              <app>
+                <lem wit="#Q2 #F1">.</lem>
+                <rdg wit="#Q1" type="variation-orthography">,</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1" n="air"/>
+                <rdg wit="#Q1" type="variation-present">briefe let me be,</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">
+                  Brief let me be
+                  <app>
+                    <lem wit="#Q2">.</lem>
+                    <rdg wit="#F1" type="variation-orthography">:</rdg>
+                  </app>
+                </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              Sleeping within my orchard,
+              <app>
+                <lem wit="#Q2 #F1" n="orchard"/>
+                <rdg wit="#Q1" type="variation-present">my custome alwayes</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">My custom always </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              <app>
+                <lem wit="#Q2">of</lem>
+                <rdg wit="#F1 #Q1">in</rdg>
+              </app>
+              the afternoon,
+              <app>
+                <lem wit="#Q2 #F1" n="afternoon"/>
+                <rdg wit="#Q1" type="variation-present">upon my secure houre</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">Upon my secure hour, </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              thy uncle
+              <app>
+                <lem wit="#Q2 #F1">stole</lem>
+                <rdg wit="#Q1">came</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1" n="stole"/>
+                <rdg wit="#Q1" type="variation-present">with iuyce of Hebona</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">With juice of cursèd hebona</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              in a vial,
+              <app>
+                <lem wit="#Q2 #F1" n="vial"/>
+                <rdg wit="#Q1">and through the porches of my eares</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">And in the porches of my ears</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+               did pour
+              <app>
+                <lem wit="#Q2 #F1" n="pour"/>
+                <rdg wit="#Q1" type="variation-present">
+                  the leaprous distilment, whose effect
+                </rdg>
+              </app>
+              </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>The lep'rous distillment, whose effect</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>Holds such an enmity with blood of man</l>
+            <l>That swift as quicksilver it
+              <app>
+                <lem wit="#Q2 #F1">courses</lem>
+                <rdg wit="#Q1">posteth</rdg>
+              </app>
+               through</l>
+            <l>The natural gates and alleys of the body,</l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>And with a sudden vigor it doth possess</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1">And curd like</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                  <app>
+                    <lem wit="#Q2 #Q1">eager</lem>
+                    <rdg wit="#F1">Aygre</rdg>
+                  </app>
+                  droppings into milk</l>
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1" n="milk"/>
+                    <rdg wit="#Q1" type="variation-present">And turnes</rdg>
+                  </app>
+                  The thin and wholesome blood
+                  <app>
+                    <lem wit="#Q2 #F1">; so did it mine,</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+              </lem>
+              <rdg wit="#Q1" type="variation-inversion">
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1" n="milk"/>
+                    <rdg wit="#Q1" type="variation-present">And turnes</rdg>
+                  </app>
+                  The thin and wholesome blood
+                  <app>
+                    <lem wit="#Q2 #F1">; so did it mine,</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+                <l>
+                  <app>
+                    <lem wit="#Q2 #F1">And curd like</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                  <app>
+                    <lem wit="#Q2 #Q1">eager</lem>
+                    <rdg wit="#F1">Aygre</rdg>
+                  </app>
+                  droppings into milk</l>
+              </rdg>
+            </app>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>And a most instant tetter
+                  <app>
+                    <lem wit="#Q2">barked</lem>
+                    <rdg wit="#F1">bak'd</rdg>
+                  </app>
+                  about</l>
+                <l>Most lazarlike with vile and loathsome crust</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="crust"/>
+                <rdg wit="#Q1" type="variation-present">And</rdg>
+              </app>
+              All my smooth body
+              <app>
+                <lem wit="#Q2 #F1" n="body"/>
+                <rdg wit="#Q1" type="varition-present">
+                  , barked, and tetterd over.
+                </rdg>
+              </app>
+              .</l>
+            <l>Thus was I
+              <app>
+                <lem wit="#Q2 #Q1" n="I"/>
+                <rdg wit="#F1" type="variation-present">,</rdg>
+              </app>
+              sleeping
+              <app>
+                <lem wit="#Q2 #Q1" n="sleeping"/>
+                <rdg wit="#F1" type="variation-present">,</rdg>
+              </app>
+              by a brother's hand</l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">Of life, </lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+              of crown,
+              <app>
+                <lem wit="#Q2 #Q1">of</lem>
+                <rdg wit="#F1">and</rdg>
+              </app>
+              queen
+              <app>
+                <lem wit="#Q2 #F1">at once dispatched,</lem>
+                <rdg wit="#Q1">, of life, of dignitie</rdg>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>Cut off even in the blossoms of my sin,</l>
+                <l>Unhousled, disappointed, unaneled,</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="unaneled"/>
+                <rdg wit="#Q1" type="variation-present">
+                  At once deprived
+                </rdg>
+              </app>
+              No reck'ning made
+              <app>
+                <lem wit="#Q2 #F1" n="made"/>
+                <rdg wit="#Q1" type="variation-present">of</rdg>
+              </app>
+              ,
+              <app>
+                <lem wit="#Q2 #F1"> but sent to my account</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="account"/>
+                <rdg wit="#Q1" type="variation-present">But sent unto my grave,</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1">With all my imperfections on my head.</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="head"/>
+                <rdg wit="#Q1" type="variation-present">With all my accompts and finnes upon my head,</rdg>
+              </app>
+              <app>
+                <lem wit="#Q2 #F1">Oh, horrible, oh, horrible, most horrible!</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app></l>
+            <app>
+              <lem wit="#Q2 #F1" n="horrible"/>
+              <rdg wit="#Q1" type="variation-present">
+                <l>O horrible, most horrible!</l>
+              </rdg>
+            </app>
+          </sp>
+          <sp who="#hamlet" xml:lang="eng" xml:id="i26awf16bk_eng" corresp="#i26awf16bk_spa">
+            <l>O God!</l>
+          </sp>
+          <sp who="#ghost" xml:lang="eng" xml:id="cevs9ma8p2_eng" corresp="#cevs9ma8p2_spa">
+            <l>If thou hast nature in thee, bear it not.</l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>Let not the royal bed of Denmark be</l>
+                <l>A couch for luxury and damnèd incest.</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>But howsomever 
+              <app>
+                <lem wit="#Q2 #F1">thou pursues this act,</lem>
+                <rdg wit="#Q1">, let not thy heart</rdg>
+              </app>
+            </l>
+            <app>
+              <lem wit="#Q2 #F1">
+                <l>Taint not thy mind, nor let thy soul contrive</l>
+              </lem>
+              <rdg wit="#Q1" type="variation-absent"/>
+            </app>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="contrive"/>
+                <rdg wit="#Q1" type="variation-present">Conspire</rdg>
+              </app>
+              Against thy mother aught
+              <app>
+                <lem wit="#Q2 #F1">; leave her to heaven</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">And to those thorns that in her bosom lodge</lem>
+                <rdg wit="#Q1">Leave her to heaven,</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1">To prick and sting her. Fare thee well at once.</lem>
+                <rdg wit="#Q1">And to the burthen that her conscience beares.</rdg>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="once"/>
+                <rdg wit="#Q1" type="variation-present">I must be gone,</rdg>
+              </app>
+              The glow-worm shows the matin 
+              <app>
+                <lem wit="#Q2 #F1">to be near</lem>
+                <rdg wit="#Q1" type="variation-absent"/>
+              </app>
+            </l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="near"/>
+                <rdg wit="#Q1" type="variation-present">To be neere,</rdg>
+              </app>
+              And 'gins to pale his uneffectual fire.</l>
+            <l>
+              <app>
+                <lem wit="#Q2 #F1" n="fire"/>
+                <rdg wit="#Q1" type="variation-present">Hamlet</rdg>
+              </app>
+              Adieu, adieu,
+              <app>
+                <lem wit="#Q2 #Q1">adieu!</lem>
+                <rdg wit="#F1">Hamlet:</rdg>
+              </app>
+              Remember me.</l>
+          </sp>
+        </rdg>
+      </app>
+
       <sp who="#ghost" xml:lang="spa" xml:id="oylvb77by0_spa" corresp="#oylvb77by0_eng">
         <speaker>Espectro</speaker>
         <l>Oh, sí; esa incestuosa, esa adúltera bestia,</l>
@@ -671,76 +1674,169 @@
       <sp who="#hamlet" xml:lang="eng" xml:id="kcoeutj8hi_eng" corresp="#kcoeutj8hi_spa">
         <speaker>Hamlet</speaker>
         <l>O all you host of heaven! O earth! What else?</l>
-        <l>And shall I couple hell? Oh, fie
+        <l>And shall I couple hell? 
           <app>
-            <lem>!</lem>
-            <rdg wit="#F1" type="variation-orthography">:</rdg>
-          </app> 
-          Hold
-          <app>
-            <lem>, hold,</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app> 
-          my heart,</l>
-        <l>And you, my sinews, grow not instant old,</l>
-        <l>But bear me 
-          <app>
-            <lem>swiftly</lem>
-            <rdg wit="#F1">stiffely</rdg>
-          </app> 
-          up
-          <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">:</rdg>
+            <lem wit="#Q2 #F1">
+              Oh, fie
+              <app>
+                <lem wit="#Q2">!</lem>
+                <rdg wit="#F1" type="variation-orthography">:</rdg>
+              </app>
+              Hold
+              <app>
+                <lem wit="#Q2">, hold,</lem>
+                <rdg wit="#F1" type="variation-absent"/>
+              </app>
+              my heart,
+            </lem>
+            <rdg wit="#Q1">remember thee?</rdg>
           </app>
-          Remember thee?</l>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>And you, my sinews, grow not instant old,</l>
+            <l>But bear me
+              <app>
+                <lem wit="#Q2">swiftly</lem>
+                <rdg wit="#F1">stiffely</rdg>
+              </app>
+              up
+              <app>
+                <lem wit="#Q2">.</lem>
+                <rdg wit="#F1" type="variation-orthography">:</rdg>
+              </app>
+              Remember thee?</l>
+            <l>
+              <app>
+                <lem wit="#Q2">Ay</lem>
+                <rdg wit="#F1">I</rdg>
+              </app>
+              , thou poor ghost, whiles memory holds a seat</l>
+            <l>In this distracted globe
+              <app>
+                <lem wit="#Q2">.</lem>
+                <rdg wit="#F1" type="variation-orthography">:</rdg>
+              </app>
+              Remember thee?</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
+        <l>Yea 
+          <app>
+            <lem wit="#Q2 #F1" n="thee"/>
+            <rdg wit="#Q1">thou poore Ghost</rdg>
+          </app>
+          , from the table 
+          <app>
+            <lem wit="#Q2 #F1">of my memory</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+        </l>
         <l>
           <app>
-            <lem>Ay</lem>
-            <rdg wit="#F1">I</rdg>
+            <lem wit="#Q2 #F1" n="memory"/>
+            <rdg wit="#Q1" type="variation-present">Of my memorie</rdg>
           </app>
-          , thou poor ghost, whiles memory holds a seat</l>
-        <l>In this distracted globe
+          I'll wipe away all 
           <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">:</rdg>
+            <lem wit="#Q2 #F1">trivial fond records,</lem>
+            <rdg wit="#Q1">sawes of Bookes</rdg>
           </app>
-          Remember thee?</l>
-        <l>Yea, from the table of my memory</l>
-        <l>I'll wipe away all trivial fond records,</l>
-        <l>All saws of books, all forms, all pressures past</l>
-        <l>That youth and observation copied there,</l>
-        <l>And thy commandment all alone shall live</l>
-        <l>Within the book and volume of my brain,</l>
-        <l>Unmixed with baser matter. Yes, 
+        </l>
+        <l>All 
           <app>
-            <lem n=","/>
-            <rdg wit="#F1" type="variation-present">yes,</rdg>
+            <lem wit="#Q2 #F1">
+              saws of books, all forms, all pressures past
+            </lem>
+            <rdg wit="#Q1">triviall fond conceites</rdg>
+          </app>
+        </l>
+        <l>That 
+          <app>
+            <lem wit="#Q2 #F1" n="past"/>
+            <rdg wit="#Q1" type="variation-present">ever</rdg>
+          </app>
+          youth 
+          <app>
+            <lem wit="#Q2 #F1">and observation copied there</lem>
+            <rdg wit="#Q1">, or else observance noted</rdg>
+          </app>
+          ,</l>
+        <l>And thy 
+          <app>
+            <lem wit="#Q2 #F1">commandment</lem>
+            <rdg wit="#Q1">remembrance</rdg>
           </app> 
-          by heaven.</l>
-        <l>Oh, most pernicious woman!</l>
-        <l>Oh, villain, villain, smiling damnèd villain!</l>
-        <l>My tables
+          all alone shall 
           <app>
-            <lem n="tables"/>
+            <lem wit="#Q2 #F1">live</lem>
+            <rdg wit="#Q1">fit.</rdg>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>Within the book and volume of my brain,</l>
+            <l>Unmixed with baser matter. Yes,
+              <app>
+                <lem wit="#Q2" n="Yes"/>
+                <rdg wit="#F1" type="variation-present">yes,</rdg>
+              </app>
+              by heaven.</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">Oh, most</lem>
+            <rdg wit="#Q1">Yes, yes, by heaven, a damnd</rdg>
+          </app> 
+          pernicious 
+          <app>
+            <lem wit="#Q2 #F1">woman</lem>
+            <rdg wit="#Q1">villaine,</rdg>
+          </app>
+          !</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">Oh, villain, villain,</lem>
+            <rdg wit="#Q1">Murderous, bawdy,</rdg>
+          </app> 
+          smiling damnèd villain!</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="villain"/>
+            <rdg wit="#Q1" type="variation-present">(</rdg>
+          </app>
+          My tables
+          <app>
+            <lem wit="#Q2 #F1" n="tables"/>
+            <rdg wit="#Q1" type="variation-present">)</rdg>
+          </app>
+          <app>
+            <lem wit="#Q2 #Q1" n="tables"/>
             <rdg wit="#F1">my Tables</rdg>
           </app>
           --meet it is I set it down</l>
         <l>That one may smile, and smile, and be a villain.</l>
         <l>At least I am sure it may be so in Denmark.</l>
-        <l>So, uncle, there you are. Now to my word.</l>
-        <l>It is 
+        <l>So, uncle, there you are
           <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
+            <lem wit="#Q2 #F1">. Now to my word</lem>
+            <rdg wit="#Q1">, there you are</rdg>
           </app>
-          Adieu, adieu, remember me.
-        <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
+          .</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="word"/>
+            <rdg wit="#Q1" type="variation-present">Now to the words;</rdg>
           </app>
-        </l>
-        <l>I have sworn't.</l>
+          It is "Adieu, adieu, remember me."</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="me"/>
+            <rdg wit="#Q1" type="variation-present">Soe t'is enough</rdg>
+          </app>
+          I have sworn't.</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="kcoeutj8hi_spa" corresp="#kcoeutj8hi_eng">
         <speaker>Hamlet</speaker>
@@ -768,7 +1864,7 @@
       </sp>
 
       <app>
-        <lem>
+        <lem wit="#Q2 #Q1">
           <stage xml:lang="eng" xml:id="zzu6a4psps_eng" corresp="#zzu6a4psps_spa">
           Enter Horatio and Marcellus
           </stage>
@@ -813,71 +1909,228 @@
         <l>¡Príncipe Hamlet!</l>
       </sp>
 
-      <sp who="#horatio" xml:lang="eng" xml:id="k78zt1pmfm_eng" corresp="#k78zt1pmfm_spa">
-        <speaker>Horatio</speaker>
-        <l>
-          <app>
-            <lem>Heavens</lem>
-            <rdg wit="#F1">Heaven</rdg>
-          </app> 
-          secure him!</l>
-      </sp>
-      <sp who="#horatio" xml:lang="spa" xml:id="k78zt1pmfm_spa" corresp="#k78zt1pmfm_eng">
-        <speaker>Horacio</speaker>
-        <l>¡El cielo lo proteja!</l>
-      </sp>
-
-      <app>
-        <lem>
-          <sp who="#hamlet" xml:lang="eng" xml:id="x5j1jv0gf2_eng" corresp="#x5j1jv0gf2_spa">
-            <speaker>Hamlet</speaker>
-            <l>So be it.</l>
-          </sp>
-        </lem>
-        <rdg wit="#F1">
-          <sp who="#marcelus" xml:lang="eng" xml:id="x5j1jv0gf2f_eng" corresp="#x5j1jv0gf2f_spa">
-            <speaker>Marcellus</speaker>
-            <l>So be it.</l>
-          </sp>
-        </rdg>
-      </app>
-      <sp who="#hamlet" xml:lang="spa" xml:id="x5j1jv0gf2_spa" corresp="#x5j1jv0gf2_eng">
-        <speaker>Hamlet</speaker>
-        <l>Así sea.</l>
-      </sp>
-
-      <app>
-        <lem>
-          <sp who="#marcelus" xml:lang="eng" xml:id="k8w5v0t0el_eng" corresp="#k8w5v0t0el_spa">
-            <speaker>Marcellus</speaker>
-            <l>Illo, ho, ho, my lord!</l>
-          </sp>
-        </lem>
-        <rdg wit="#F1">
-          <sp who="#horatio" xml:lang="eng" xml:id="k8w5v0t0elf_eng" corresp="#k8w5v0t0elf_spa">
+      <app xml:id="kak2zouh4v">
+        <lem wit="#Q2 #F1">
+          <sp who="#horatio" xml:lang="eng" xml:id="k78zt1pmfm_eng" corresp="#k78zt1pmfm_spa">
             <speaker>Horatio</speaker>
-            <l>Illo, ho, ho, my lord!</l>
+            <l>
+              <app>
+                <lem wit="#Q2 #Q1">Heavens</lem>
+                <rdg wit="#F1">Heaven</rdg>
+              </app>
+              secure him!</l>
+          </sp>
+          <sp who="#horatio" xml:lang="spa" xml:id="k78zt1pmfm_spa" corresp="#k78zt1pmfm_eng">
+            <speaker>Horacio</speaker>
+            <l>¡El cielo lo proteja!</l>
+          </sp>
+          <app xml:id="bv4e89bn4f">
+            <lem wit="#Q2 #F1">
+              <app>
+                <lem wit="#Q2">
+                  <sp who="#hamlet" xml:lang="eng" xml:id="x5j1jv0gf2_eng" corresp="#x5j1jv0gf2_spa">
+                    <speaker>Hamlet</speaker>
+                    <l>So be it.</l>
+                  </sp>
+                </lem>
+                <rdg wit="#F1">
+                  <sp who="#marcelus" xml:lang="eng" xml:id="x5j1jv0gf2f_eng" corresp="#x5j1jv0gf2f_spa">
+                    <speaker>Marcellus</speaker>
+                    <l>So be it.</l>
+                  </sp>
+                </rdg>
+              </app>
+            </lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          <sp who="#hamlet" xml:lang="spa" xml:id="x5j1jv0gf2_spa" corresp="#x5j1jv0gf2_eng">
+            <speaker>Hamlet</speaker>
+            <l>Así sea.</l>
+          </sp>
+          <app>
+            <lem wit="#Q2">
+              <sp who="#marcelus" xml:lang="eng" xml:id="k8w5v0t0el_eng" corresp="#k8w5v0t0el_spa">
+                <speaker>Marcellus</speaker>
+                <l>Illo, ho, ho, my lord!</l>
+              </sp>
+            </lem>
+            <rdg wit="#F1 #Q1">
+              <sp who="#horatio" xml:lang="eng" xml:id="k8w5v0t0elf_eng" corresp="#k8w5v0t0elf_spa">
+                <speaker>Horatio</speaker>
+                <l>Illo, 
+                  <app>
+                    <lem wit="#Q2 #F1" n="illo"/>
+                    <rdg wit="#Q1" type="variation-present">lo, lo,</rdg>
+                  </app>
+                  ho, ho
+                  <app>
+                    <lem wit="#Q2 #F1">, my lord!</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+              </sp>
+            </rdg>
+          </app>
+          <sp who="#marcelus" xml:lang="spa" xml:id="k8w5v0t0elf_spa" corresp="#k8w5v0t0elf_eng">
+            <speaker>Marcelo</speaker>
+            <l>¡Eh, oh, oh, mi señor!</l>
+          </sp>
+          <app>
+            <lem>
+              <sp who="#hamlet" xml:lang="eng" xml:id="rnnloerske_eng" corresp="#rnnloerske_spa">
+                <speaker>Hamlet</speaker>
+                <l>Hillo, ho, ho, boy, come,
+                  <app>
+                    <lem wit="#Q2">and</lem>
+                    <rdg wit="#F1">bird</rdg>
+                  </app>
+                  come!</l>
+              </sp>
+            </lem>
+            <rdg>
+              <sp who="#marcelus" xml:lang="eng" xml:id="rnnloerskef_eng" corresp="#rnnloerskef_spa">
+                <speaker>Marcellus</speaker>
+                <l>Hillo,
+                  <app>
+                    <lem wit="#Q2 #F1" n="hillo"/>
+                    <rdg wit="#Q1" type="variation-present">lo, lo, so,</rdg>
+                  </app>
+                  ho, 
+                  <app>
+                    <lem wit="#Q2 #F1">ho,</lem>
+                    <rdg wit="#Q1">so, come</rdg>
+                  </app>
+                   boy, come,
+                  <app>
+                    <lem wit="#Q2 #F1">
+                      <app>
+                        <lem wit="#Q2">and</lem>
+                        <rdg wit="#F1">bird</rdg>
+                      </app>
+                      come!
+                    </lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+              </sp>
+            </rdg>
+          </app>
+          <sp who="#hamlet" xml:lang="spa" xml:id="rnnloerske_spa" corresp="#rnnloerske_eng">
+            <speaker>Hamlet</speaker>
+            <l>¡Eh, oh, oh, muchacho! ¡Ven, ven, pajarillo!</l>
+          </sp>
+        </lem>
+        <rdg wit="#Q1" type="variation-inversion">
+          <app>
+            <lem wit="#Q2">
+              <sp who="#marcelus" xml:lang="eng" xml:id="k8w5v0t0elj_eng" corresp="#k8w5v0t0elj_spa">
+                <speaker>Marcellus</speaker>
+                <l>Illo, ho, ho, my lord!</l>
+              </sp>
+            </lem>
+            <rdg wit="#F1 #Q1">
+              <sp who="#horatio" xml:lang="eng" xml:id="k8w5v0t0elfj_eng" corresp="#k8w5v0t0elfj_spa">
+                <speaker>Horatio</speaker>
+                <l>Illo, 
+                  <app>
+                    <lem wit="#Q2 #F1" n="illo"/>
+                    <rdg wit="#Q1" type="variation-present">lo, lo,</rdg>
+                  </app>
+                  ho, ho
+                  <app>
+                    <lem wit="#Q2 #F1">, my lord!</lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+              </sp>
+            </rdg>
+          </app>
+          <sp who="#marcelus" xml:lang="spa" xml:id="k8w5v0t0elfj_spa" corresp="#k8w5v0t0elfj_eng">
+            <speaker>Marcelo</speaker>
+            <l>¡Eh, oh, oh, mi señor!</l>
+          </sp>
+          <app>
+            <lem>
+              <sp who="#hamlet" xml:lang="eng" xml:id="rnnloerskej_eng" corresp="#rnnloerskej_spa">
+                <speaker>Hamlet</speaker>
+                <l>Hillo, ho, ho, boy, come,
+                  <app>
+                    <lem wit="#Q2">and</lem>
+                    <rdg wit="#F1">bird</rdg>
+                  </app>
+                  come!</l>
+              </sp>
+            </lem>
+            <rdg>
+              <sp who="#marcelus" xml:lang="eng" xml:id="rnnloerskefj_eng" corresp="#rnnloerskefj_spa">
+                <speaker>Marcellus</speaker>
+                <l>Hillo,
+                  <app>
+                    <lem wit="#Q2 #F1" n="hillo"/>
+                    <rdg wit="#Q1" type="variation-present">lo, lo, so,</rdg>
+                  </app>
+                  ho, 
+                  <app>
+                    <lem wit="#Q2 #F1">ho,</lem>
+                    <rdg wit="#Q1">so, come</rdg>
+                  </app>
+                   boy, come,
+                  <app>
+                    <lem wit="#Q2 #F1">
+                      <app>
+                        <lem wit="#Q2">and</lem>
+                        <rdg wit="#F1">bird</rdg>
+                      </app>
+                      come!
+                    </lem>
+                    <rdg wit="#Q1" type="variation-absent"/>
+                  </app>
+                </l>
+              </sp>
+            </rdg>
+          </app>
+          <sp who="#hamlet" xml:lang="spa" xml:id="rnnloerskej_spa" corresp="#rnnloerskej_eng">
+            <speaker>Hamlet</speaker>
+            <l>¡Eh, oh, oh, muchacho! ¡Ven, ven, pajarillo!</l>
+          </sp>
+          <sp who="#horatio" xml:lang="eng" xml:id="k78zt1pmfmj_eng" corresp="#k78zt1pmfmj_spa">
+            <speaker>Horatio</speaker>
+            <l>
+              <app>
+                <lem wit="#Q2 #Q1">Heavens</lem>
+                <rdg wit="#F1">Heaven</rdg>
+              </app>
+              secure him!</l>
+          </sp>
+          <sp who="#horatio" xml:lang="spa" xml:id="k78zt1pmfmj_spa" corresp="#k78zt1pmfmj_eng">
+            <speaker>Horacio</speaker>
+            <l>¡El cielo lo proteja!</l>
+          </sp>
+          <app xml:id="bv4e89bn4fj">
+            <lem wit="#Q2 #F1">
+              <app>
+                <lem wit="#Q2">
+                  <sp who="#hamlet" xml:lang="eng" xml:id="x5j1jv0gf2j_eng" corresp="#x5j1jv0gf2j_spa">
+                    <speaker>Hamlet</speaker>
+                    <l>So be it.</l>
+                  </sp>
+                </lem>
+                <rdg wit="#F1">
+                  <sp who="#marcelus" xml:lang="eng" xml:id="x5j1jv0gf2fj_eng" corresp="#x5j1jv0gf2fj_spa">
+                    <speaker>Marcellus</speaker>
+                    <l>So be it.</l>
+                  </sp>
+                </rdg>
+              </app>
+            </lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          <sp who="#hamlet" xml:lang="spa" xml:id="x5j1jv0gf2j_spa" corresp="#x5j1jv0gf2j_eng">
+            <speaker>Hamlet</speaker>
+            <l>Así sea.</l>
           </sp>
         </rdg>
       </app>
-      <sp who="#marcelus" xml:lang="spa" xml:id="k8w5v0t0elf_spa" corresp="#k8w5v0t0elf_eng">
-        <speaker>Marcelo</speaker>
-        <l>¡Eh, oh, oh, mi señor!</l>
-      </sp>
-
-      <sp who="#hamlet" xml:lang="eng" xml:id="rnnloerske_eng" corresp="#rnnloerske_spa">
-        <speaker>Hamlet</speaker>
-        <l>Hillo, ho, ho, boy, come, 
-          <app>
-            <lem>and</lem>
-            <rdg wit="#F1">bird</rdg>
-          </app> 
-          come!</l>
-      </sp>
-      <sp who="#hamlet" xml:lang="spa" xml:id="rnnloerske_spa" corresp="#rnnloerske_eng">
-        <speaker>Hamlet</speaker>
-        <l>¡Eh, oh, oh, muchacho! ¡Ven, ven, pajarillo!</l>
-      </sp>
 
       <sp who="#marcelus" xml:lang="eng" xml:id="jzl6goqzod_eng" corresp="#jzl6goqzod_spa">
         <speaker>Marcellus</speaker>
@@ -899,7 +2152,12 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="vevkviql02_eng" corresp="#vevkviql02_spa">
         <speaker>Hamlet</speaker>
-        <l>Oh, wonderful!</l>
+        <l>Oh, wonderful
+          <app>
+            <lem wit="#Q2 #F1" n="wonderful"/>
+            <rdg wit="#Q1" type="variation-present">, wonderful</rdg>
+          </app>
+          !</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="vevkviql02_spa" corresp="#vevkviql02_eng">
         <speaker>Hamlet</speaker>
@@ -917,7 +2175,12 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="x33dzyt3bg_eng" corresp="#x33dzyt3bg_spa">
         <speaker>Hamlet</speaker>
-        <l>No, you will reveal it.</l>
+        <l>No
+          <app>
+            <lem wit="#Q2 #F1" n="no"/>
+            <rdg wit="#Q1" type="variation-present">not I</rdg>
+          </app>
+          , you will reveal it.</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="x33dzyt3bg_spa" corresp="#x33dzyt3bg_eng">
         <speaker>Hamlet</speaker>
@@ -944,8 +2207,23 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="oj5b961z3t_eng" corresp="#oj5b961z3t_spa">
         <speaker>Hamlet</speaker>
-        <l>How say you then, would heart of man once think it--</l>
-        <l>But you'll be secret?</l>
+        <l>How say you then, would heart of man 
+          <app>
+            <lem wit="#Q2 #F1">once think it--</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="it"/>
+            <rdg wit="#Q1" type="variation-present">Once thinke it?</rdg>
+          </app>
+          But you'll be secret
+          <app>
+            <lem wit="#Q2 #F1">?</lem>
+            <rdg wit="#Q1" type="variation-orthography">.</rdg>
+          </app>
+        </l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="oj5b961z3t_spa" corresp="#oj5b961z3t_eng">
         <speaker>Hamlet</speaker>
@@ -957,13 +2235,13 @@
         <speaker>Both</speaker>
         <l>
           <app>
-            <lem>Ay</lem>
-            <rdg wit="#F1">I</rdg>
+            <lem wit="#Q2">Ay</lem>
+            <rdg wit="#F1 #Q1">I</rdg>
           </app>
           , by heaven.
         <app>
-          <lem n="."/>
-          <rdg wit="#F1" type="variation-present">my Lord.</rdg>
+          <lem wit="#Q2" n="heaven"/>
+          <rdg wit="#F1 #Q1" type="variation-present">my Lord.</rdg>
         </app>
         </l>
       </sp>
@@ -987,16 +2265,21 @@
         <speaker>Horatio</speaker>
         <l>There needs no ghost, my lord, come from the 
           <app>
-            <lem>grave</lem>
+            <lem wit="#Q2 #Q1">grave</lem>
             <rdg wit="#F1" type="variation-absent"/>
           </app>
         </l>
         <l>
           <app>
-            <lem/>
+            <lem wit="#Q2" n="grave"/>
             <rdg wit="#F1" type="variation-present">Grave</rdg>
           </app>
-          To tell us this.</l>
+          To tell 
+          <app>
+            <lem wit="#Q2 #F1">us</lem>
+            <rdg wit="#Q1">you</rdg>
+          </app> 
+          this.</l>
       </sp>
       <sp who="#horatio" xml:lang="spa" xml:id="kq9pwgp6f7_spa" corresp="#kq9pwgp6f7_eng">
         <speaker>Horacio</speaker>
@@ -1006,28 +2289,91 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="it5hrwazja_eng" corresp="#it5hrwazja_spa">
         <speaker>Hamlet</speaker>
-        <l>Why, right, you are in the right.</l>
-        <l>And so, without more circumstance at all</l>
-        <l>I hold it fit that we shake hands and part:</l>
-        <l>You as your business and desire shall point you</l>
         <l>
           <app>
-            <lem>(</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
-          For every man hath business and desire,</l>
-        <l>Such as it is
+            <lem wit="#Q2 #F1">Why,</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> right, you are in the right
           <app>
-            <lem>),</lem>
+            <lem wit="#Q2 #F1">.</lem>
+            <rdg wit="#Q1">, and therefore</rdg>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">And so,</lem>
+            <rdg wit="#Q1">I holde it meet</rdg>
+          </app> 
+          without more circumstance at all</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">I hold it fit that</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          we shake hands and part:
+          <app>
+            <lem wit="#Q2 #F1" n="part"/>
+            <rdg wit="#Q1" type="variation-present">you as your busines</rdg>
+          </app>        
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">You as your business</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          and desire shall 
+          <app>
+            <lem wit="#Q2 #F1">point</lem>
+            <rdg wit="#Q1">lead</rdg>
+          </app> 
+          you
+          <app>
+            <lem wit="#Q2 #F1" n="you"/>
+            <rdg wit="#Q1" type="variation-present">: for looke you,</rdg>
+          </app>        
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2">(</lem>
+            <rdg wit="#F1 #Q1" type="variation-absent"/>
+          </app>
+          <app>
+            <lem wit="#Q2 #F1">For</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          every man hath business and desire,
+          <app>
+            <lem wit="#Q2 #F1" n="desire"/>
+            <rdg wit="#Q1" type="variation-present">such</rdg>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">Such</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          as it is
+          <app>
+            <lem wit="#Q2">),</lem>
             <rdg wit="#F1" type="variation-orthography">:</rdg>
           </app> 
-          and for my own poor part</l>
-        <l>
+          and for my own poor part
           <app>
-            <lem n="part"/>
-            <rdg wit="#F1" type="variation-present">Looke you,</rdg>
+            <lem wit="#Q2 #F1" n="part"/>
+            <rdg wit="#Q1" type="variation-present">, ile go pray</rdg>
           </app>
-          I will go pray.</l>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>
+              <app>
+                <lem wit="#Q2" n="part"/>
+                <rdg wit="#F1" type="variation-present">Looke you,</rdg>
+              </app>
+              I will go pray.</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="it5hrwazja_spa" corresp="#it5hrwazja_eng">
         <speaker>Hamlet</speaker>
@@ -1044,7 +2390,7 @@
         <speaker>Horatio</speaker>
         <l>These are but wild and 
           <app>
-            <lem>whirling</lem>
+            <lem wit="#Q2 #Q1">whirling</lem>
             <rdg wit="#F1">hurling</rdg>
           </app> 
           words, my lord.</l>
@@ -1078,21 +2424,52 @@
         <speaker>Hamlet</speaker>
         <l>Yes, by Saint Patrick, but there is, 
           <app>
-            <lem>Horatio</lem>
+            <lem wit="#Q2 #Q1">Horatio</lem>
             <rdg wit="#F1">my Lord</rdg>
           </app>
           ,</l>
         <l>And much offense too
           <app>
-            <lem>.</lem>
-            <rdg wit="#F1" type="variation-orthography">,</rdg>
+            <lem wit="#Q2">.</lem>
+            <rdg wit="#F1 #Q1" type="variation-orthography">,</rdg>
           </app> 
-          Touching this vision here,</l>
+          Touching this vision 
+          <app>
+            <lem wit="#Q2 #F1">here</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          ,</l>
         <l>It is an honest ghost, that let me tell you.</l>
         <l>For your desire to know what is between us,</l>
-        <l>O'ermaster it as you may. And now, good friends,</l>
-        <l>As you are friends, scholars, and soldiers,</l>
-        <l>Give me one poor request.</l>
+        <l>O'ermaster it as you may
+          <app>
+            <lem wit="#Q2 #F1">. And now, good friends,</lem>
+            <rdg wit="#Q1">:</rdg>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="friends"/>
+            <rdg wit="#Q1" type="variation-present">And now kind frends,</rdg>
+          </app>
+          As you are friends, 
+          <app>
+            <lem wit="#Q2 #F1">scholars, and soldiers,</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">Give me one poor request.</lem>
+            <rdg wit="#Q1">Schollers and gentlmen,</rdg>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1" n="request"/>
+          <rdg wit="#Q1" type="variation-present">
+            <l>Grant mee one poore request.</l>
+          </rdg>
+        </app>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="kkcs5v27xt_spa" corresp="#kkcs5v27xt_eng">
         <speaker>Hamlet</speaker>
@@ -1105,10 +2482,20 @@
         <l>concededme una pobre petición.</l>
       </sp>
 
-      <sp who="#horatio" xml:lang="eng" xml:id="g0cqa9oqto_eng" corresp="#g0cqa9oqto_spa">
-        <speaker>Horatio</speaker>
-        <l>What is't, my lord? We will.</l>
-      </sp>
+      <app>
+        <lem wit="#Q2 #F1">
+          <sp who="#horatio" xml:lang="eng" xml:id="g0cqa9oqto_eng" corresp="#g0cqa9oqto_spa">
+            <speaker>Horatio</speaker>
+            <l>What is't, my lord? We will.</l>
+          </sp>
+        </lem>
+        <rdg wit="#Q1">
+          <sp who="#horatio #marcelus" xml:lang="eng" xml:id="g0cqa9oqtoj_eng" corresp="#g0cqa9oqtoj_spa">
+            <speaker>Both</speaker>
+            <l>What is't, my lord?</l>
+          </sp>
+        </rdg>
+      </app>
       <sp who="#horatio" xml:lang="spa" xml:id="g0cqa9oqto_spa" corresp="#g0cqa9oqto_eng">
         <speaker>Horacio</speaker>
         <l>¿Cuál es ella, mi señor? La concederemos.</l>
@@ -1123,7 +2510,7 @@
         <l>Nunca revelar lo que habéis visto esta noche.</l>
       </sp>
 
-      <sp who="#horatio #marcellus" xml:lang="eng" xml:id="dywbpcssc2_eng" corresp="#dywbpcssc2_spa">
+      <sp who="#horatio #marcelus" xml:lang="eng" xml:id="dywbpcssc2_eng" corresp="#dywbpcssc2_spa">
         <speaker>Both</speaker>
         <l>My lord, we will not.</l>
       </sp>
@@ -1161,7 +2548,19 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="c0k9zuof58_eng" corresp="#c0k9zuof58_spa">
         <speaker>Hamlet</speaker>
-        <l>Upon my sword.</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="faith"/>
+            <rdg wit="#Q1" type="variation-present">Nay</rdg>
+          </app>
+          Upon my sword
+          <app>
+            <lem wit="#Q2 #F1" n="sword"/>
+            <rdg wit="#Q1" type="variation-present">
+              , indeed upon my sword
+            </rdg>
+          </app>
+          .</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="c0k9zuof58_spa" corresp="#c0k9zuof58_eng">
         <speaker>Hamlet</speaker>
@@ -1169,7 +2568,7 @@
       </sp>
       
       <app>
-        <lem>
+        <lem wit="#Q2">
           <stage xml:lang="eng" xml:id="pgbn7328aw_eng" corresp="#pgbn7328aw_spa">
           He holds out his sword.
           </stage>
@@ -1177,28 +2576,32 @@
           Saca su espada y la sostiene.
           </stage>
         </lem>
-        <rdg wit="#F1" type="variation-absent"/>
+        <rdg wit="#F1 #Q1" type="variation-absent"/>
       </app>
 
-      <sp who="#marcelus" xml:lang="eng" xml:id="hvgju05hyf_eng" corresp="#hvgju05hyf_spa">
-        <speaker>Marcellus</speaker>
-        <l>We have sworn, my lord, already.</l>
-      </sp>
-      <sp who="#marcelus" xml:lang="spa" xml:id="hvgju05hyf_spa" corresp="#hvgju05hyf_eng">
-        <speaker>Marcelo</speaker>
-        <l>Lo hemos jurado ya, mi señor.</l>
-      </sp>
-
-      <sp who="#hamlet" xml:lang="eng" xml:id="wfdzjr5u5s_eng" corresp="#wfdzjr5u5s_spa">
-        <speaker>Hamlet</speaker>
-        <l>Indeed, upon my sword, indeed.</l>
-        <stage>Ghost cries under the stage.</stage>
-      </sp>
-      <sp who="#hamlet" xml:lang="spa" xml:id="wfdzjr5u5s_spa" corresp="#wfdzjr5u5s_eng">
-        <speaker>Hamlet</speaker>
-        <l>Hacedlo, sobre mi espada, hacedlo.</l>
-        <stage>Espectro brama bajo el escenario.</stage>
-      </sp>
+      <app>
+        <lem wit="#Q2 #F1">
+          <sp who="#marcelus" xml:lang="eng" xml:id="hvgju05hyf_eng" corresp="#hvgju05hyf_spa">
+            <speaker>Marcellus</speaker>
+            <l>We have sworn, my lord, already.</l>
+          </sp>
+          <sp who="#marcelus" xml:lang="spa" xml:id="hvgju05hyf_spa" corresp="#hvgju05hyf_eng">
+            <speaker>Marcelo</speaker>
+            <l>Lo hemos jurado ya, mi señor.</l>
+          </sp>
+          <sp who="#hamlet" xml:lang="eng" xml:id="wfdzjr5u5s_eng" corresp="#wfdzjr5u5s_spa">
+            <speaker>Hamlet</speaker>
+            <l>Indeed, upon my sword, indeed.</l>
+            <stage>Ghost cries under the stage.</stage>
+          </sp>
+          <sp who="#hamlet" xml:lang="spa" xml:id="wfdzjr5u5s_spa" corresp="#wfdzjr5u5s_eng">
+            <speaker>Hamlet</speaker>
+            <l>Hacedlo, sobre mi espada, hacedlo.</l>
+            <stage>Espectro brama bajo el escenario.</stage>
+          </sp>
+        </lem>
+        <rdg wit="#Q1" type="variation-absent"/>
+      </app>
 
       <sp who="#ghost" xml:lang="eng" xml:id="yi5wubzxj3_eng" corresp="#yi5wubzxj3_spa">
         <speaker>Ghost</speaker>
@@ -1209,16 +2612,40 @@
         <l>Jurad.</l>
       </sp>
 
+      <app>
+        <lem wit="#Q2 #F1" n="swear"/>
+        <rdg wit="#Q1" type="variation-present">
+          <stage xml:lang="eng" xml:id="kfc5uu0nxrj_eng" corresp="#kfc5uu0nxrj_spa">
+            The Gost under the stage.
+          </stage>
+        </rdg>
+      </app>
+
       <sp who="#hamlet" xml:lang="eng" xml:id="gojngi52k8_eng" corresp="#gojngi52k8_spa">
         <speaker>Hamlet</speaker>
-        <l>Ha, ha, boy, say'st thou so? Art thou there, truepenny?--</l>
-        <l>Come on, you 
+        <l>Ha, ha, 
           <app>
-            <lem>hear</lem>
-            <rdg wit="#F1">here</rdg>
-          </app> 
-          this fellow in the cellarage.</l>
-        <l>Consent to swear.</l>
+            <lem wit="#Q2 #F1">boy, say'st thou so? Art thou there, truepenny?--</lem>
+            <rdg wit="#Q1">come you here, this fellow in the sellerige,</rdg>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>Come on, you
+              <app>
+                <lem wit="#Q2">hear</lem>
+                <rdg wit="#F1">here</rdg>
+              </app>
+              this fellow in the cellarage.</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="cellarage"/>
+            <rdg wit="#Q1" type="variation-present">Here</rdg>
+          </app>
+          Consent to swear.</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="gojngi52k8_spa" corresp="#gojngi52k8_eng">
         <speaker>Hamlet</speaker>
@@ -1238,7 +2665,17 @@
 
       <sp who="#hamlet" xml:lang="eng" xml:id="hxww09hjl1_eng" corresp="#hxww09hjl1_spa">
         <speaker>Hamlet</speaker>
-        <l>Never to speak of this that you have seen.</l>
+        <l>Never to speak 
+          <app>
+            <lem wit="#Q2 #F1">of this that</lem>
+            <rdg wit="#Q1">what</rdg>
+          </app>
+           you have seen
+           <app>
+            <lem wit="#Q2 #F1" n="seen"/>
+            <rdg wit="#Q1" type="variation-present">to night</rdg>
+           </app>
+           .</l>
         <l>Swear by my sword.</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="hxww09hjl1_spa" corresp="#hxww09hjl1_eng">
@@ -1257,7 +2694,7 @@
       </sp>
 
       <app>
-        <lem>
+        <lem wit="#Q2">
           <stage xml:lang="eng" xml:id="hym7v4nc0a_eng" corresp="#hym7v4nc0a_spa">
           They swear.
           </stage>
@@ -1265,28 +2702,60 @@
           Juran.
           </stage>
         </lem>
-        <rdg wit="#F1" type="variation-absent"/>
+        <rdg wit="#F1 #Q1" type="variation-absent"/>
       </app>
 
       <sp who="#hamlet" xml:lang="eng" xml:id="ws4kiez0xf_eng" corresp="#ws4kiez0xf_spa">
         <speaker>Hamlet</speaker>
-        <l>Hic et ubique? Then we'll shift our ground.</l>
+        <l>Hic et ubique? 
+          <app>
+            <lem wit="#Q2 #F1" n="ubique"/>
+            <rdg wit="#Q1" type="variation-present">Nay</rdg>
+          </app>
+          Then we'll shift our ground.</l>
         <app>
-          <lem>
+          <lem wit="#Q2">
             <stage>He moves them to another spot.</stage>
           </lem>
-          <rdg wit="#F1" type="variation-absent"/>
+          <rdg wit="#F1 #Q1" type="variation-absent"/>
         </app>
-        <l>Come hither, gentlemen,</l>
-        <l>And lay your hands again upon my sword.</l>
-        <app>
-          <lem>
-            <l>Swear by my sword</l>
-            <l>Never to speak of this that you have heard.</l>
+        <l>Come hither, gentlemen,
+          <app>
+            <lem wit="#Q2 #F1" n="gentlemen"/>
+            <rdg wit="#Q1" type="variation-present">and lay your handes</rdg>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">And lay your hands </lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          again upon 
+          <app>
+            <lem wit="#Q2 #F1">my</lem>
+            <rdg wit="#Q1">this</rdg>
+          </app>
+           sword
+           <app>
+            <lem wit="#Q2 #F1">.</lem>
+            <rdg>, never to speake</rdg>
+           </app>
+           </l>
+        <app xml:id="rn5oh7svzc">
+          <lem wit="#Q2 #F1">
+            <app>
+              <lem wit="#Q2">
+                <l>Swear by my sword</l>
+                <l>Never to speak of this that you have heard.</l>
+              </lem>
+              <rdg wit="#F1" type="variation-inversion">
+                <l>Never to speak of this that you have heard.</l>
+                <l>Swear by my sword</l>
+              </rdg>
+            </app>
           </lem>
-          <rdg wit="#F1" type="variation-inversion">
-            <l>Never to speak of this that you have heard.</l>
-            <l>Swear by my sword</l>
+          <rdg wit="#Q1">
+            <l>Of that which you have seene, sweare by my sword.</l>
           </rdg>
         </app>
       </sp>
@@ -1304,8 +2773,8 @@
         <speaker>Ghost</speaker>
         <l>Swear 
           <app>
-            <lem>by his sword</lem>
-            <rdg wit="#F1" type="variation-absent"/>
+            <lem wit="#Q2">by his sword</lem>
+            <rdg wit="#F1 #Q1" type="variation-absent"/>
           </app>
           .</l>
       </sp>
@@ -1315,26 +2784,39 @@
       </sp>
 
       <app>
-        <lem>
+        <lem wit="#Q2">
           <stage xml:lang="eng" xml:id="kprs8bg86r_eng" corresp="#kprs8bg86r_spa">
           They swear.
           </stage>
-          <stage xml:lang="spa" xml:id="kprs8bg86r_spa" corresp="#kprs8bg86r_eng">
-          Juran.
-          </stage>
         </lem>
-        <rdg wit="#F1" type="variation-absent"/>
+        <rdg wit="#F1 #Q1" type="variation-absent"/>
       </app>
+      <stage xml:lang="spa" xml:id="kprs8bg86r_spa" corresp="#kprs8bg86r_eng">
+        Juran.
+      </stage>
 
       <sp who="#hamlet" xml:lang="eng" xml:id="yhei5pgq47_eng" corresp="#yhei5pgq47_spa">
         <speaker>Hamlet</speaker>
         <l>Well said, old mole. Canst work i'th' 
           <app>
-            <lem>earth</lem>
+            <lem wit="#Q2 #Q1">earth</lem>
             <rdg wit="#F1">ground</rdg>
           </app> 
-          so fast?</l>
-        <l>A worthy pioneer!--Once more remove, good friends.</l>
+          <app>
+            <lem wit="#Q2 #F1">so fast</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>?</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="fast"/>
+            <rdg wit="#Q1" type="variation-present">so fast, </rdg>
+          </app>
+          A worthy pioneer!--Once more remove
+          <app>
+            <lem wit="#Q2 #F1">, good friends</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          .</l>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="yhei5pgq47_spa" corresp="#yhei5pgq47_eng">
         <speaker>Hamlet</speaker>
@@ -1343,20 +2825,25 @@
       </sp>
       
       <app>
-        <lem>
+        <lem wit="#Q2">
           <stage xml:lang="eng" xml:id="ve8vsav8al_eng" corresp="#ve8vsav8al_spa">
           They move once more.
           </stage>
-          <stage xml:lang="spa" xml:id="ve8vsav8al_spa" corresp="#ve8vsav8al_eng">
-          Se mueven una vez más.
-          </stage>
         </lem>
-        <rdg wit="#F1" type="variation-absent"/>
+        <rdg wit="#F1 #Q1" type="variation-absent"/>
       </app>
+      <stage xml:lang="spa" xml:id="ve8vsav8al_spa" corresp="#ve8vsav8al_eng">
+        Se mueven una vez más.
+      </stage>
 
       <sp who="#horatio" xml:lang="eng" xml:id="kjlsld4r8g_eng" corresp="#kjlsld4r8g_spa">
         <speaker>Horatio</speaker>
-        <l>Oh, day and night, but this is wondrous strange.</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">Oh, </lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          day and night, but this is wondrous strange.</l>
       </sp>
       <sp who="#horatio" xml:lang="spa" xml:id="kjlsld4r8g_spa" corresp="#kjlsld4r8g_eng">
         <speaker>Horacio</speaker>
@@ -1367,74 +2854,106 @@
         <speaker>Hamlet</speaker>
         <l>And therefore as a stranger give it welcome.</l>
         <l>There are more things in heaven and earth, Horatio,</l>
-        <l>Than are dreamt of in your philosophy. But come,</l>
-        <l>Here as before: never, so help you mercy,</l>
+        <l>Than are dreamt of in your philosophy
+          <app>
+            <lem wit="#Q2 #F1">. But come</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>,</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1" n="come"/>
+            <rdg wit="#Q1" type="variation-present">But come</rdg>
+          </app>
+          Here as before
+          <app>
+            <lem wit="#Q2 #F1">: never, so help you mercy,</lem>
+            <rdg wit="#Q1">you never shall</rdg>
+          </app>
+        </l>
         <l>How strange or odd some'er I bear myself</l>
-        <l>(As I perchance hereafter shall think meet</l>
-        <l>To put an antic disposition on),</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">(</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+          As I perchance hereafter shall think meet</l>
+        <l>To put an antic disposition on
+          <app>
+            <lem wit="#Q2 #F1">)</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>,</l>
         <l>That you at such times seeing me never shall,</l>
         <l>With arms encumbered thus, or this headshake,</l>
-        <l>Or by pronouncing of some doubtful phrase</l>
-        <l>As, 
+        <l>Or by pronouncing 
           <app>
-            <lem>"</lem>
+            <lem wit="#Q2 #F1">of</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          some 
+          <app>
+            <lem wit="#Q2 #F1">doubtful</lem>
+            <rdg wit="#Q1">undoubtfull</rdg>
+          </app>
+           phrase</l>
+        <l>As, "Well, 
+          <app>
+            <lem wit="#Q2 #Q1">well</lem>
             <rdg wit="#F1" type="variation-absent"/>
           </app>
-          Well, 
-          <app>
-            <lem>well</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
-          , we know,
-          <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
-          or 
-          <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
-          We could an if we would,
-          <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
-          </l>
+          , we know," or 
+          "We could an if we would,"</l>
         <l>Or 
           <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
-          If we list to speak,
+            <lem wit="#Q2 #F1">"If we list to speak," or</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app> 
+          "There be, an if they might,"
           <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
-          or 
+            <lem wit="#Q2 #F1" n="might"/>
+            <rdg wit="#Q1" type="variation-present"> or such ambiguous:</rdg>
+          </app>        
+        </l>
+        <l>
           <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
+            <lem wit="#Q2 #F1">Or such ambiguous</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
           </app>
-          There be, an if they might,
-          <app>
-            <lem>"</lem>
-            <rdg wit="#F1" type="variation-absent"/>
-          </app>
+           giving out, to note
+           <app>
+            <lem wit="#Q2 #F1" n="note"/>
+            <rdg wit="#Q1" type="variation-present">, that you know aught of mee,</rdg>
+           </app>
           </l>
-        <l>Or such ambiguous giving out, to note</l>
-        <l>That you know aught of me. This 
+        <l>
           <app>
-            <lem>do swear</lem>
-            <rdg wit="#F1">not to doe</rdg>
+            <lem wit="#Q2 #F1">That you know aught of me. </lem>
+            <rdg wit="#Q1" type="variation-absent"/>
           </app>
-          ,</l>
-        <l>So grace and mercy at your most need help you.</l>
+          This 
+          <app>
+            <lem wit="#Q2">do swear</lem>
+            <rdg wit="#F1 #Q1">not to doe</rdg>
+          </app>
+          ,
+          <app>
+            <lem wit="#Q2 #F1" n="swear"/>
+            <rdg wit="#Q1" type="variation-present">so grace, and mercie</rdg>
+          </app>
+        </l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">So grace and mercy</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+           at your most need help you
+           <app>
+            <lem wit="#Q2 #F1" n="you"/>
+            <rdg wit="#Q1" type="variation-present">sweare</rdg>
+          </app>
+           .</l>
         <app>
-          <lem>
-            <l n="."/> 
-          </lem>
-          <rdg wit="#F1">Sweare</rdg>
+          <lem wit="#Q2" n="you"/> 
+          <rdg wit="#F1" type="variation-present">Sweare</rdg>
         </app>
       </sp>
       <sp who="#hamlet" xml:lang="spa" xml:id="anssr4xkpi_spa" corresp="#anssr4xkpi_eng">
@@ -1466,10 +2985,10 @@
       </sp>
 
       <app>
-        <lem><stage xml:lang="eng" xml:id="kweg9uwxjh_eng" corresp="#kweg9uwxjh_spa">
+        <lem wit="#Q2"><stage xml:lang="eng" xml:id="kweg9uwxjh_eng" corresp="#kweg9uwxjh_spa">
           They swear.
         </stage></lem>
-        <rdg wit="#F1" type="variation-absent"/>
+        <rdg wit="#F1 #Q1" type="variation-absent"/>
       </app>
       <stage xml:lang="spa" xml:id="kweg9uwxjh_spa" corresp="#kweg9uwxjh_eng">
         Juran.
@@ -1478,17 +2997,56 @@
       <sp who="#hamlet" xml:lang="eng" xml:id="kjtqf6xugf_eng" corresp="#kjtqf6xugf_spa">
         <speaker>Hamlet</speaker>
         <l>Rest, rest, perturbèd spirit.--So, gentlemen,</l>
-        <l>With all my love I do commend me to you,</l>
-        <l>And what so poor a man as Hamlet is</l>
-        <l>May do t'express his love and friending to you,</l>
-        <l>God willing, shall not lack. Let us go in together,</l>
-        <l>And still your fingers on your lips, I pray.</l>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">With</lem>
+            <rdg wit="#Q1">In</rdg>
+          </app> 
+          all my love I do commend me to you,</l>
+        <l>And what so poor a man as Hamlet 
+          <app>
+            <lem wit="#Q2 #F1">is</lem>
+            <rdg wit="#Q1">may</rdg>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1">
+            <l>May do t'express his love and friending to you,</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"/>
+        </app>
+        <l>
+          <app> 
+            <lem wit="#Q2 #F1" n="you"/>
+            <rdg wit="#Q1" type="variation-present">To pleasure you, </rdg>
+          </app>
+          God willing, shall not 
+          <app>
+            <lem wit="#Q2 #F1">lack</lem>
+            <rdg wit="#Q1">want,</rdg>
+          </app>
+          <app>
+            <lem wit="#Q2 #F1">. Let us go in together,</lem>
+            <rdg wit="#Q1" type="variation-absent"/>
+          </app>
+        </l>
+        <app>
+          <lem wit="#Q2 #F1" n="together"/>
+          <rdg wit="#Q1" type="variation-present">
+            <l>Nay come let's go together,</l>
+          </rdg>
+        </app>
+        <l>
+          <app>
+            <lem wit="#Q2 #F1">And</lem>
+            <rdg wit="#Q1">But</rdg>
+          </app> 
+          still your fingers on your lips, I pray.</l>
         <l>The time is out of joint. Oh, cursèd spite,</l>
         <l>That ever I was born to set it right!</l>
-
         <app>
-          <lem><stage>They wait for him to leave first.</stage></lem>
-          <rdg wit="#F1" type="variation-absent"/>
+          <lem wit="#Q2"><stage>They wait for him to leave first.</stage></lem>
+          <rdg wit="#F1 #Q1" type="variation-absent"/>
         </app>
         <l>Nay, come, let's go together.</l>
       </sp>
@@ -1515,6 +3073,16 @@
       </stage>
       
       </div>
+    </div>
+
+    <div type="reflexion">
+      <head>Reflexión personal</head>
+      <p>A menudo se presume la existencia de una rivalidad o tensión irreconciliable entre las humanidades y la tecnología, tanto dentro del ámbito académico como fuera de él. Es común la creencia de que una de estas —la segunda— acabará por triunfar sobre la otra, extinguiéndola por completo. Y no puede negarse que este sea un miedo o preocupación razonable, en la medida en que la innovación tecnológica (o cualquier innovación, en realidad) presenta el desafío de lo desconocido de manera tangible. El imaginario colectivo que se ha construido alrededor de la inteligencia artificial tiene un gran bagaje distópico alimentado por la narrativa ficcional que presagia la perdición en muchas formas. Sin embargo, desde que, en los últimos años, la mayoría de la población obtuvo acceso a la inteligencia artificial en la sencilla forma de un chat, o bien, una voz con la que se puede conversar e interactuar fácilmente, la percepción general de esta innovación tecnológica ha tomado formas nuevas y menos intimidantes. De hecho, la dependencia hacia esta tecnología se ha vuelto ahora una nueva problemática, especialmente dentro del aspecto académico y en lo que a los procesos de aprendizaje en universidades y colegios se refiere. Por una parte, el desconocimiento del alcance y las posibilidades sobre lo que se puede lograr con la asistencia de la inteligencia artificial generativa lleva a darle usos insuficientes o incompletos, pues se puede tener una muy buena herramienta a la mano, pero, sin conocer las maneras óptimas de su uso, puede volverse completamente inútil. Por otra parte, es necesario saber qué tipo de tareas es ideal realizar usando la inteligencia artificial y cuáles, en cambio, no pueden relegársele. Precisamente, el trabajo llevado a cabo en la programación y generación de código se vuelve óptimo al contar con la asistencia de la IAGen. En cambio, el trabajo de creación literaria, por poner un ejemplo, es un asunto mucho más delicado: aunque podría nutrirse de la IAGen usada correctamente, este tipo de trabajo debe realizarse con más precaución y, definitivamente, la IAGen nunca debería sustituir directamente ningún tipo de creación artística humana.</p>
+<p>A lo largo de la clase de Herramientas Digitales para Humanistas, entré en contacto con recursos digitales y tecnologías que antes ni siquiera sabía que existían y que ofrecen la oportunidad de optimizar los posibles trabajos o tareas que un humanista puede desempeñar. Desde edición y traducción hasta investigación y cotejo filológico, existen múltiples instrumentos digitales que consiguen facilitar el desempeño de un literato. Precisamente, rescato los recursos explorados en la clase porque todos funcionan como un apoyo para el trabajo en las humanidades y en ninguna manera como un obstáculo o rival de la creación y difusión literaria. Entre ellos, podría destacar Zotero, OmegaT y, por supuesto, TEI, que conformó la mayor parte del trabajo realizado en clase; cada uno de estos, con un enfoque y utilidades distintas. En primer lugar, Zotero demostró ser de gran utilidad para la gestión de referencias bibliográficas, lo cual, actualmente, es una parte fundamental de mi desempeño como estudiante de Literatura, pues debo escribir múltiples ensayos cada semestre y he tenido que realizar proyectos de carácter investigativo, donde la organización, clasificación y fácil acceso a bibliografía se vuelve clave. El descubrimiento de Zotero, entonces, me abrió las puertas a tener una biblioteca propia que irá creciendo y nutriéndose de fuentes que iré recolectando a lo largo de la carrera. En segundo lugar, OmegaT facilitó los primeros pasos de lo que sería el proyecto final, es decir, la traducción de una escena de Hamlet y considero que el aprendizaje es valioso para usarla a futuro, pues me interesaría trabajar en traducción de textos.</p>
+<p>Por otra parte, el grueso de la clase se conformó por nuestro trabajo en TEI con el cotejo de variantes entre el Folio 1, Cuarto 1 y Cuarto 2 de Hamlet. Para llevarlo a cabo, atravesamos muchas etapas: una de las primeras cosas que tuvimos que aprender fue el uso de expresiones regulares tanto en Python como en Visual Studio Code. Fue precisamente en ese momento cuando el uso de la IAGen empezó a ser una vía de ayuda para las entregas y la comprensión del funcionamiento de las expresiones regulares. Aunque no era la primera vez que me encontraba con el lenguaje de programación, sí era la primera vez que lo encontraba en términos de humanidades, donde muchas de las funciones eran usadas para abrir archivos, buscar algo específico en el texto de Hamlet y mostrarlo después. Al pedirle a Gemini que me sugiriera cómo hacer el código cuando no estaba segura, incluso después de intentarlo por mi cuenta y pensarlo con base en mis conocimientos, esta ampliaba mi panorama y me enseñaba cómo hacer cosas que no tenía en mente antes. Sin embargo, siempre desconfié un poco de que realmente lo estuviera haciendo bien y tal como debía, así que procuraba revisar varias veces lo que hacía y pedirle que me explicara alguno de los pasos que sugería cuando no lo comprendía. De esta manera, interactuando con la inteligencia artificial, pude resolver dudas y corregir errores en mi aprendizaje sobre conocimientos que pensaba que habían quedado completamente claros y en realidad no.</p> 
+<p>Luego, conforme avanzamos en la realización de lo que sería el proyecto final, el código utilizado se volvió más complejo y, mientras estábamos trabajando en el espacio de la clase, podía consultar mis dudas con el profesor y con mis compañeros. Sin embargo, en los espacios de trabajo autónomo se volvía necesario recurrir a la IA para preguntarle como marcar los cambios más complejos entre el Cuarto 1 y los otros dos testimonios de Hamlet. Por ejemplo, tuve muchas dudas sobre un tipo de variante que se presentó: se trataba de diálogos del personaje de Hamlet que no aparecían ni en el Cuarto 2, ni en el Folio 1, y estaban insertados en medio de un diálogo del Espectro. Al tratarse de un cambio que afectaba a dos hablantes (speakers), tuve que enfrentarme a la duda sobre cómo proceder y fue entonces que me apoyé en la IA una vez más para presentarle el problema y pedirle soluciones. En estas ocasiones, siempre que trabajé con la IA le hice preguntas más allá de pedirle simplemente que generara el código que necesitaba, para así entender qué estaba haciendo y por qué. Así, se enriqueció el proceso de aprendizaje y garanticé poder repetir a futuro lo que había hecho con ayuda de la IA, pero ya sin su intervención.</p>
+<p>Dentro de este proceso, que duró casi todo un semestre, mis interacciones con la Inteligencia Artificial Generativa para crear código fueron fundamentales para un aprendizaje sólido de cómo funcionan los recursos utilizados. Para empezar, me parece importante aclarar que se trata de una herramienta que había usado antes, en el ámbito académico, en contadas ocasiones, pues los profesores suelen mostrar una actitud prohibitiva en lo que a ella respecta. Además, aunque había asistido a clases de programación básicas en el colegio, el uso que se le dio entonces no estuvo relacionado con las humanidades o el arte de ninguna manera, por lo que no era consciente de cómo estas herramientas pueden simplificar el trabajo de las humanidades.  En varias ocasiones, el contraste entre mi propio entendimiento inicial de los elementos usados y las sugerencias de la IA me ayudaron a darme cuenta de que los conocimientos adquiridos podían tomar nuevas dimensiones y profundidades de la mano de esta herramienta.</p>
+
     </div>
     </body>
   </text>

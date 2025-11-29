@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(88, 29, 29);
 }
 
+tei-p {
+    display: block;
+    text-align: left;
+    margin-top: 0.5cm;
+}
+
 
 tei-title{
     font-family: Rochester, 'Times New Roman', Times, serif;
@@ -72,7 +78,7 @@ tei-sp[lang="eng"]{
 
 tei-sp[lang="spa"] tei-l{
     display: block;
-    color: blueviolet;
+    font-weight: bold;
 }
 
 tei-stage {
@@ -85,7 +91,7 @@ tei-stage {
 }
 
 tei-stage[lang="eng"] {
-    color: brown;
+    color: rgb(56, 56, 134);
 }
 
 tei-stage[lang="spa"] {
@@ -96,5 +102,54 @@ tei-speaker{
     display: block;
     font-variant: small-caps;
     font-weight: bold;
-    color: darkslategray;
+    color: rgb(160, 19, 47);
+}
+
+tei-lem {
+    display: inline;
+    font-style: italic;
+    color:darkgreen;
+}
+
+tei-lem::after {
+    content: "[" attr(wit) "]";
+    vertical-align: sub;
+    font-size: 6pt
+}
+
+tei-lem[n]::after {
+    content: "__[" attr(wit) "]";
+}
+
+tei-rdg {
+    display: block;
+    color:  darkolivegreen;
+    font-style: italic;
+    text-align: right;
+    margin-right: 80%;
+    font-weight: bold;
+}
+
+tei-rdg::after {
+    content: "[" attr(wit) "]";
+    vertical-align: sub;
+    font-size: 6pt;
+}
+
+tei-rdg[type="variation-absent"]::after {
+    content: "__[" attr(wit) "]";
+    vertical-align: sub;
+    font-size: 6pt;
+}
+
+tei-rdg[type="variation-present"]::before {
+    content: "^";
+    vertical-align: top;
+    font-size: 6pt;
+}
+
+tei-rdg[type="variation-present"]::after {
+    content: "[" attr(wit) "]";
+    vertical-align: sub;
+    font-size: 6pt;
 }
